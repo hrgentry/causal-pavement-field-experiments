@@ -1,0 +1,16 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cbm-fonts}[2026/09/05 CBM research manuscript typography]
+\RequirePackage[T1]{fontenc}
+\RequirePackage{amsmath}
+% MathDesign also changes rmdefault: load it before the requested text family.
+\RequirePackage[garamond,expert]{mathdesign}
+\RequirePackage{fbb}
+% Keep source identifiers and paths in the requested text family as well.
+\renewcommand{\ttdefault}{\rmdefault}
+% MathDesign's medium-bold series is named mb; fbb provides b instead.
+\renewcommand{\bfdefault}{b}
+\DeclareFontSeriesDefault[rm]{bf}{b}
+\AtBeginDocument{%
+  \typeout{CBM-TEXT-FAMILY=\rmdefault}%
+  \typeout{CBM-MATH-FAMILY=mdugm}%
+}

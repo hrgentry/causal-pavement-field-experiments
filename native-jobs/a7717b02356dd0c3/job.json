@@ -1,0 +1,16 @@
+{
+  "name": "sps10--technology-double--LOPO--12-AA00",
+  "case": "sps10",
+  "model": "technology-double",
+  "role": "LOPO",
+  "unit": "12-AA00",
+  "seed": 20827123,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/sps10.stan",
+  "model_source_sha256": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+  "data_file_sha256": "2a4c75b28f290eec284b33bc90f496a25bed4d89f2a305ef1e501838eacd15d6"
+}

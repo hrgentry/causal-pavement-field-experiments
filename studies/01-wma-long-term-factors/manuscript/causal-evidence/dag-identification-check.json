@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "dagitty_version": "0.3.4",
+  "checks": {
+    "sps10-mechanism": {
+      "exposures": "A",
+      "outcome": "Y",
+      "latent": "U",
+      "minimal_measured_sets_with_U": {},
+      "minimal_sets_after_removing_U_paths": {
+        "1": "L"
+      },
+      "scope": "Mechanism panel only. The reduced graph is hypothetical; observation/management identification is additional."
+    },
+    "sps5-mechanism": {
+      "exposures": ["H", "M", "P"],
+      "outcome": "Y",
+      "latent": "U",
+      "minimal_measured_sets_with_U": {},
+      "minimal_sets_after_removing_U_paths": {
+        "1": "L"
+      },
+      "scope": "Mechanism panel only. The reduced graph is hypothetical; observation/management identification is additional."
+    },
+    "common_followup": {
+      "physical_record_separation": true,
+      "direct_later_treatment_path": true,
+      "possible_outcome_dependent_selection": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "manitoba--event-kappa11--pairloo--virgin-upper__1996|D",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 138,
+  "structural_constants": [],
+  "max_rhat": 1.002678639430752,
+  "min_bulk_ess": 1506.0240773013563,
+  "min_tail_ess": 2840.106735443686,
+  "max_mcse_sd": 0.02590109136344567,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7086490906627217,
+    0.7011303070764252,
+    0.6357214793988906,
+    0.7601865498050326
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "d02d6e5095041f821e96aebad52c207c4b69d7b1710b678006a2955ea082dbe7",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

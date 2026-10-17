@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "manitoba--event-ell6-kappa11--pairloo--virgin-lower__1993|D",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 138,
+  "structural_constants": [],
+  "max_rhat": 1.0021518374719045,
+  "min_bulk_ess": 1724.4060301181596,
+  "min_tail_ess": 2859.796834118437,
+  "max_mcse_sd": 0.02438032619842951,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7030327479240448,
+    0.7338982773638886,
+    0.6862002280387617,
+    0.677622964448581
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "e832887191f6d8e2297f6ed268e0a7a381b784af7c71249eb8a8814315bbf4b0",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

@@ -1,0 +1,13 @@
+contrast,omitted_project,projects,mean_absolute_mm,uncertainty
+F-H,04-AA00,5,0.24383310621242477,"Descriptive project deletion, not confidence interval"
+F-H,12-AA00,5,0.2674804008016031,"Descriptive project deletion, not confidence interval"
+F-H,32-AA00,5,0.20842436873747489,"Descriptive project deletion, not confidence interval"
+F-H,35-AA00,5,0.23690885771543074,"Descriptive project deletion, not confidence interval"
+F-H,41-AA00,5,0.24802436873747488,"Descriptive project deletion, not confidence interval"
+F-H,53-AA00,5,0.2926507414829659,"Descriptive project deletion, not confidence interval"
+C-H,04-AA00,5,0.7449728256513025,"Descriptive project deletion, not confidence interval"
+C-H,12-AA00,5,0.6596020841683367,"Descriptive project deletion, not confidence interval"
+C-H,32-AA00,5,0.5992941082164329,"Descriptive project deletion, not confidence interval"
+C-H,35-AA00,5,0.5228886573146292,"Descriptive project deletion, not confidence interval"
+C-H,41-AA00,5,0.6533741082164328,"Descriptive project deletion, not confidence interval"
+C-H,53-AA00,5,0.74793875751503,"Descriptive project deletion, not confidence interval"

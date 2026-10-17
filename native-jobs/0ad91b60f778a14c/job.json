@@ -1,0 +1,16 @@
+{
+  "name": "manitoba--event-kappa11--pairloo--recycled-lower__2017|D",
+  "case": "manitoba",
+  "model": "event-kappa11",
+  "role": "pairloo",
+  "unit": "recycled-lower__2017|D",
+  "seed": 20374766,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/manitoba.stan",
+  "model_source_sha256": "ba2f3868ea0c1508fc9a4b4147f9a67dbd7066b582426a06da7fde9056909d5d",
+  "data_file_sha256": "6cd8c14ae48c8575ab1eb1cec7bc65154f8957f261391bc301421c4fcfe4d864"
+}

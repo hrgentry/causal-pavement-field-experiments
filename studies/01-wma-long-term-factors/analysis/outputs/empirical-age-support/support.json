@@ -1,0 +1,89 @@
+{
+  "source_commit": "4fe2a2c360396fa2f01c872712176d8b962ef408",
+  "inputs": {
+    "studies/01-wma-long-term-factors/analysis/outputs/sdr40-panel81-qc/panel.json": "9311990e59be684e7570fb18dcd18b69b803f0a1ce089b2513f2be8eeb9e2a15",
+    "studies/01-wma-long-term-factors/analysis/outputs/m0-m1-protocol-closeout/closeout.json": "a62bef549e4231476517ea7544431576874f583eca72dec46013466dacb575b3"
+  },
+  "generator_sha256": "7ca494b185066cfab14e6936fb74c197d60278d1ad2ebdce70132c1727256435",
+  "common_range_start": 5.404517453798768,
+  "common_range_end": 2.937713894592745,
+  "common_range_exists": false,
+  "summary": [
+    {
+      "age": 2,
+      "sections_bracketed": 9,
+      "projects_all_three_bracketed": 3,
+      "max_nearest_gap_years": 3.4045174537987677,
+      "outside": [
+        "35-AA00/C",
+        "35-AA00/F",
+        "35-AA00/H",
+        "41-AA00/C",
+        "41-AA00/F",
+        "41-AA00/H",
+        "53-AA00/C",
+        "53-AA00/F",
+        "53-AA00/H"
+      ]
+    },
+    {
+      "age": 3,
+      "sections_bracketed": 14,
+      "projects_all_three_bracketed": 4,
+      "max_nearest_gap_years": 2.4045174537987677,
+      "outside": [
+        "35-AA00/C",
+        "35-AA00/F",
+        "35-AA00/H",
+        "53-AA00/F"
+      ]
+    },
+    {
+      "age": 5,
+      "sections_bracketed": 14,
+      "projects_all_three_bracketed": 4,
+      "max_nearest_gap_years": 2.062286105407255,
+      "outside": [
+        "35-AA00/C",
+        "35-AA00/F",
+        "35-AA00/H",
+        "53-AA00/F"
+      ]
+    },
+    {
+      "age": 5.5,
+      "sections_bracketed": 17,
+      "projects_all_three_bracketed": 5,
+      "max_nearest_gap_years": 2.562286105407255,
+      "outside": [
+        "53-AA00/F"
+      ]
+    },
+    {
+      "age": 6,
+      "sections_bracketed": 17,
+      "projects_all_three_bracketed": 5,
+      "max_nearest_gap_years": 3.062286105407255,
+      "outside": [
+        "53-AA00/F"
+      ]
+    },
+    {
+      "age": 7,
+      "sections_bracketed": 13,
+      "projects_all_three_bracketed": 3,
+      "max_nearest_gap_years": 4.062286105407255,
+      "outside": [
+        "32-AA00/C",
+        "32-AA00/F",
+        "32-AA00/H",
+        "35-AA00/H",
+        "53-AA00/F"
+      ]
+    }
+  ],
+  "definition": "Within-range means min(observed age)<=target<=max(observed age) for each section; not a density or causal positivity certification",
+  "observations": 81,
+  "sections": 18,
+  "projects": 6
+}

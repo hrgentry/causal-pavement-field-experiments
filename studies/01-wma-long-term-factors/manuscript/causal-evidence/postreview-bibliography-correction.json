@@ -1,0 +1,13 @@
+{
+  "schema": "VERIFIED_POSTREVIEW_BIBLIOGRAPHY_CORRECTIONS",
+  "corrections": [
+    {
+      "key": "gao2024probabilistic",
+      "fields": {"volume": "21", "pages": "e03460"},
+      "doi": "10.1016/j.cscm.2024.e03460",
+      "verified_primary_source": "https://www.sciencedirect.com/science/article/pii/S2214509525012811",
+      "source_location": "Publisher reference list: Case Studies in Construction Materials 21 (2024), Article e03460",
+      "purpose": "Complete volume and article identifier; no change to cited scientific claims"
+    }
+  ]
+}

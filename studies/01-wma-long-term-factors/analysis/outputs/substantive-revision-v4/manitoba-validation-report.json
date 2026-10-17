@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_ALL_ENUMERATED_BLOCKS",
+  "models": [
+    "linear-stationary",
+    "cn-reset",
+    "bend-stationary",
+    "linear-event",
+    "bend-event"
+  ],
+  "units_per_model": 52,
+  "unreliable_psis_not_omitted": true,
+  "exact_refits": 25,
+  "g": "UNDEFINED",
+  "calibration_scope": "conditional measurements at known roads/campaigns, not marginal mean calibration",
+  "analysis_code_sha256": "aad2b8b531f1c1fc83b81b8f8f463947101caebf71aeff27b45b5b4faedc5a72",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

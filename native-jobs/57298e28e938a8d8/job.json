@@ -1,0 +1,16 @@
+{
+  "name": "sps10--technology-double--near5--41-AA00",
+  "case": "sps10",
+  "model": "technology-double",
+  "role": "near5",
+  "unit": "41-AA00",
+  "seed": 20984445,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/sps10.stan",
+  "model_source_sha256": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+  "data_file_sha256": "553c22bc125a85d4c7e6301b2ea733cfe102e5f4f3d4f5883a9e889d4f106c59"
+}

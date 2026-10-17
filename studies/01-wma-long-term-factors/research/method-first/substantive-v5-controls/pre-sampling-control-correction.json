@@ -1,0 +1,10 @@
+{
+  "previous_protocol_file_sha256": "f1bf33553a7739ffc23e92ca56df927e05aa4ebadcacecd81e38ea37e5ab1df4",
+  "old_registry_sha256": "db2b110a45690c5e7e3aea9ba97b43745248bac8dfa4570ebce25000d757ec19",
+  "old_prepared_job_fingerprints": [
+    "193ef9b7dca72c06b8fc06a0a485c5307d3e3aa13dbc10d7318fd0db754eedaa",
+    "72ac198bae7b5f3a207402f6d8436f10a829da5302a7b34ceccf26a280ccf5cf"
+  ],
+  "previous_sampling_runs": 0,
+  "reason": "Independent reviewer identified unmatched jump density and induced cumulative attenuation priors. Replaced regular5year grid before any sampling by count-matched clock cuts. Old protocol and job inputs remain untouched."
+}

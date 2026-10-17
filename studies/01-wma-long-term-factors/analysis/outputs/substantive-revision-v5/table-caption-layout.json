@@ -1,0 +1,98 @@
+{
+  "status": "PASS_SOURCE_ORDER",
+  "checked_tables": [
+    {
+      "path": "sections/astra-manitoba-adjudication-table.tex",
+      "label": "tab:manitoba-adjudication",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/astra-sps10-adjudication-table.tex",
+      "label": "tab:sps10-adjudication",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-appendix.tex",
+      "label": "tab:v4-legacy-selection",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-appendix.tex",
+      "label": "tab:v4-project-support",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-appendix.tex",
+      "label": "tab:astra-layer",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-diagnostic-table.tex",
+      "label": "tab:v4-diagnostics",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-literature.tex",
+      "label": "tab:v5-causal-literature",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-manitoba.tex",
+      "label": "tab:v4-mb-validation",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-mb-sensitivity.tex",
+      "label": "tab:v5-mb-prior",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-mb-sensitivity.tex",
+      "label": "tab:v5-time",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-mb-technical-details.tex",
+      "label": "tab:v5-mb-parameters",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-sensitivity-details.tex",
+      "label": "tab:v5-prior-targets",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-sensitivity-details.tex",
+      "label": "tab:v5-bridge",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-sensitivity-details.tex",
+      "label": "tab:v5-prior-post",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-sps-sensitivity.tex",
+      "label": "tab:v5-completion",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-sps10.tex",
+      "label": "tab:v4-sps-ppc",
+      "caption_above_table": true
+    },
+    {
+      "path": "sections/v5-sps10.tex",
+      "label": "tab:v4-sps-validation",
+      "caption_above_table": true
+    }
+  ],
+  "changed_sources": [
+    "sections/v5-diagnostic-table.tex",
+    "sections/v5-mb-sensitivity.tex",
+    "sections/v5-mb-technical-details.tex",
+    "sections/v5-sensitivity-details.tex",
+    "sections/v5-sps-sensitivity.tex"
+  ],
+  "scope": "Table/longtable captions above data; final PDF visual gate still required"
+}

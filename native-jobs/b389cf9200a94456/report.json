@@ -1,0 +1,27 @@
+{
+  "status": "SAMPLED_SUMMARIZED_PENDING_DIAGNOSTIC_GATE",
+  "job": "manitoba--stationary-rounded--full--primary",
+  "case": "manitoba",
+  "model": "stationary-rounded",
+  "retained_per_chain": 2000,
+  "warmup_per_chain": 1000,
+  "chains": 4,
+  "seed": 20982047,
+  "data_sha256": "9942fc90952be7fc8300d7ad13abfe707fb7c9a5fca68315928ee5b783abab1f",
+  "model_sha256": "ba2f3868ea0c1508fc9a4b4147f9a67dbd7066b582426a06da7fde9056909d5d",
+  "runtime_binding": {
+    "stanc_sha256": "f37a630c77e6c284b7818f7c2796555c72f47b6977cf8821f24661980626b79e",
+    "stansummary_sha256": "b3e2c0c96a51f15d8e416617e035e343641245c5680d181228fe9075b0910397",
+    "make_sha256": "2d3b9fca575be8e93c10ab74348055fa127a65cf628d52e9218ac76065cc6d22",
+    "compiler_sha256": "6b1a4bda50d34a0a7697cc3b7bc0937cfad1277e0e92373f4b1382e7d19c7985",
+    "shell_sha256": "6a5c557c031f8683a796240b89c14e47deb5f3337ae8d34c43b675f392b6e885"
+  },
+  "csv_sha256": {
+    "chain-1.csv": "4d93419a4fea617fcc860dae507b0004b352dec36cb6d6c9eb47f334b8cc1644",
+    "chain-2.csv": "81158c4f98159c6d198841bb20194d0715ee2709006d5a21a9747fd95e220b3d",
+    "chain-3.csv": "aa3f0eeb5a13905de0f5befa70eaa0f7729613fd643a0b2538a6ca008704e147",
+    "chain-4.csv": "5eb2e2fa29a1ffb1e829b632110fdc12927cddd2669075557a5aabbe25aab1f4"
+  },
+  "summary_sha256": "49955fa7920a176e1c3866c9acd6238372afebb2248609ce7b3805df365acd8b",
+  "g": "UNDEFINED"
+}

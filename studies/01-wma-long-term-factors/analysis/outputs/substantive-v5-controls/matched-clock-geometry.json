@@ -1,0 +1,109 @@
+{
+  "status": "PASS_MATCHED_COUNTS_NONDEGENERATE",
+  "roads": [
+    {
+      "section": 1,
+      "old_jumps": [
+        2,
+        2
+      ],
+      "clock_jumps": [
+        2,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.8806327464198391
+    },
+    {
+      "section": 2,
+      "old_jumps": [
+        2,
+        2
+      ],
+      "clock_jumps": [
+        2,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.8805732450142137
+    },
+    {
+      "section": 3,
+      "old_jumps": [
+        2,
+        2
+      ],
+      "clock_jumps": [
+        2,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.8807291465047395
+    },
+    {
+      "section": 4,
+      "old_jumps": [
+        2,
+        2
+      ],
+      "clock_jumps": [
+        2,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.8807885711298327
+    },
+    {
+      "section": 5,
+      "old_jumps": [
+        1,
+        2
+      ],
+      "clock_jumps": [
+        1,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.815396316253781
+    },
+    {
+      "section": 6,
+      "old_jumps": [
+        2,
+        2
+      ],
+      "clock_jumps": [
+        2,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.8806882875022343
+    },
+    {
+      "section": 7,
+      "old_jumps": [
+        2,
+        2
+      ],
+      "clock_jumps": [
+        2,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.8806161194624392
+    },
+    {
+      "section": 8,
+      "old_jumps": [
+        1,
+        2
+      ],
+      "clock_jumps": [
+        1,
+        2
+      ],
+      "pairwise_count_difference_rank": 2,
+      "clock_count_time_correlation": 0.8153724214917988
+    }
+  ]
+}

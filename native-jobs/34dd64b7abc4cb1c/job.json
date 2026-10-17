@@ -1,0 +1,16 @@
+{
+  "name": "sps10--section-half--near5--41-AA00",
+  "case": "sps10",
+  "model": "section-half",
+  "role": "near5",
+  "unit": "41-AA00",
+  "seed": 20365290,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/sps10.stan",
+  "model_source_sha256": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+  "data_file_sha256": "3afaa0ba62e5b23de986ae172a1f8fdc82c161ea1f4da07d37a59ca4613fd6a0"
+}

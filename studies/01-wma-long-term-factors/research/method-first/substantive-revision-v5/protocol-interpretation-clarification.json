@@ -1,0 +1,8 @@
+{
+  "frozen_protocol_unchanged": true,
+  "lambda_grid_not_estimated": true,
+  "prior_equals_posterior_statement": "Only if a prior for lambda is independent of the remaining parameters; the present fixed grid has no fitted lambda posterior.",
+  "unchanged_prediction_scope": "Existing physical sections near five and whole-project deletion. Does not include a new physical section in an existing project-technology cell.",
+  "no_sharp_identification_bound_claim": true,
+  "native_models_data_seeds_changed": false
+}

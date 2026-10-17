@@ -1,0 +1,9 @@
+section,preparation_label,material_label,thickness_label,source_page,source_sha256,x1,x2,x3,x4,x5,x6,x7
+0502,minimum,recycled,lower,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,-0.5,0.5,-0.5,-0.5,0.5,-0.5,0.5
+0503,minimum,recycled,upper,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,-0.5,0.5,0.5,-0.5,-0.5,0.5,-0.5
+0504,minimum,virgin,upper,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,-0.5,-0.5,0.5,0.5,-0.5,-0.5,0.5
+0505,minimum,virgin,lower,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,-0.5,-0.5,-0.5,0.5,0.5,0.5,-0.5
+0506,intensive,virgin,lower,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,0.5,-0.5,-0.5,-0.5,-0.5,0.5,0.5
+0507,intensive,virgin,upper,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,0.5,-0.5,0.5,-0.5,0.5,-0.5,-0.5
+0508,intensive,recycled,upper,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+0509,intensive,recycled,lower,13,175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1,0.5,0.5,-0.5,0.5,-0.5,-0.5,-0.5

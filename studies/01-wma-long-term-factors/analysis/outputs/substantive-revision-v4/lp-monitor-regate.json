@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "fits": 55,
+  "includes_lp": true,
+  "new_native_draws": 0,
+  "source_code_sha256": "dbeb7cefa69075ccfd463de13956c8258592c653d4363fea1324ff36c83f526e",
+  "statistics_code_sha256": "67dc00c85e1e2bba4aa28b9cdb585a21889ddca846a74c59c89854bfe30080dc"
+}

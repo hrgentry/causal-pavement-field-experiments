@@ -1,0 +1,6 @@
+job,status,retained_per_chain,max_rhat,min_bulk_ess,min_tail_ess,max_mcse_sd,divergences,treedepth_hits,precision_only_failure
+manitoba--stationary-rounded--pairloo--virgin-lower__1993|D,PASS,2000,1.0041225604456185,1579.7305549252544,3093.660363923619,0.025851308410066515,0,0,False
+manitoba--stationary-rounded--pairloo--virgin-lower__1996|D,PASS,2000,1.0030251280320088,1545.2305715118243,2714.373874671429,0.026019949520555374,0,0,False
+manitoba--stationary-rounded--pairloo--virgin-upper__2017|D,PASS,2000,1.0036535951414167,1707.5523846184728,2888.399218394008,0.025174595749151246,0,0,False
+manitoba--calendar-matched--pairloo--virgin-lower__1993|D,PASS,2000,1.001879220404593,1987.4425519158335,1942.4781036085376,0.022628017937908904,0,0,False
+manitoba--calendar-matched--pairloo--virgin-lower__1996|D,PASS,2000,1.001936176131121,1795.3380616585675,2255.9732884255673,0.02409934674304767,0,0,False

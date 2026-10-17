@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "clock_kernel_psd": [
+    {
+      "kappa_A": 0.1,
+      "kappa_B": 0.99,
+      "min_eigenvalue": 0.012349067474265956
+    },
+    {
+      "kappa_A": 0.5,
+      "kappa_B": 0.5,
+      "min_eigenvalue": 0.012349407939499912
+    },
+    {
+      "kappa_A": 1.0,
+      "kappa_B": 1.0,
+      "min_eigenvalue": 0.012348381183208192
+    }
+  ],
+  "stan_unchanged": true
+}

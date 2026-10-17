@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "sps10--technology-double--LOPO--35-AA00",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 221,
+  "structural_constants": [],
+  "max_rhat": 1.0021069605115318,
+  "min_bulk_ess": 2149.954768518901,
+  "min_tail_ess": 2151.725844130445,
+  "max_mcse_sd": 0.021591513067857757,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7831514917612351,
+    0.8055529629243439,
+    0.7361250701444727,
+    0.8101468492970173
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "58bbd8130625239d7c59464915a8721fb3b9af0d38db5dfd355a685b8f8d4da9",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

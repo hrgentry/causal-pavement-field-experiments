@@ -1,0 +1,26 @@
+{
+  "status": "PASS_MARGINAL_TARGET_AND_GQ_VERIFIED",
+  "max_gq_error": 5.329070518200751e-15,
+  "models": [
+    "linear-stationary",
+    "cn-reset",
+    "bend-stationary",
+    "linear-event",
+    "bend-event",
+    "length-prior-1p5",
+    "length-prior-6",
+    "incomplete110",
+    "mean-halves",
+    "early48"
+  ],
+  "g": "UNDEFINED",
+  "causal_effect_identified": false,
+  "analysis_code_sha256": "69e5958a577cc2182bb6ceb334db8d6c08d56567d1d2033111e46fb60ccab317",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

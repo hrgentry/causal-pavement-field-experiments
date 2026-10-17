@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "comparison": "point-event-vs-count-matched",
+      "reference": "calendar-matched",
+      "alternative": "linear-event",
+      "score": "crps_mm",
+      "units": 52,
+      "reference_mean_mm": 0.7230875270271054,
+      "alternative_mean_mm": 0.6311513006500286,
+      "mean_gain_mm": 0.09193622637707694,
+      "improved": 36,
+      "scope": "Same conditional reconstruction task; overlapping units, no independent-unit SE or causal operation-effect estimate"
+    },
+    {
+      "comparison": "interval-event-vs-stationary",
+      "reference": "stationary-rounded",
+      "alternative": "event-rounded",
+      "score": "rounded_crps_mm",
+      "units": 52,
+      "reference_mean_mm": 0.7241774234761569,
+      "alternative_mean_mm": 0.5609440696812199,
+      "mean_gain_mm": 0.16323335379493686,
+      "improved": 30,
+      "scope": "Same conditional reconstruction task; overlapping units, no independent-unit SE or causal operation-effect estimate"
+    }
+  ],
+  "used_new_fits": 7,
+  "all_used_fits": 135,
+  "this_round_new_fits": 73,
+  "new_pair_deletion_units": 104,
+  "all_v5_new_pair_deletion_units": 416,
+  "count_matching": "Actual jump counts retained, dates replaced by prespecified regular partition; not operation-free",
+  "date_invariance": "Moving dates inside unchanged visit intervals leaves the model kernel unchanged; a resolution property",
+  "inference": "One matched regular partition and one shared-likelihood comparison; neither unique timing optimality nor causal operation effect",
+  "inputs": {
+    "studies/01-wma-long-term-factors/analysis/outputs/substantive-v5-controls/manitoba-validation.csv": "e9ee05c050d64f72b7abb645970e5b4f3267c2b7afcbd21aefb58712471f40e4",
+    "studies/01-wma-long-term-factors/analysis/outputs/substantive-v5-controls/manitoba-validation-summary.csv": "7175d55e88d003dbafd9de957e8b6e899b26f286daebbdd9b30738953e30758c",
+    "studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v5/manitoba-validation.csv": "7638d8ea700bfcd36c960417f8bed0eb24ef550f57d130605464f52198ae28a5",
+    "studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v4/manitoba-held-pair-validation.csv": "d960772da029f0de009596871f5cbf9dd2c055a9480b265d9336dcde52397317"
+  }
+}

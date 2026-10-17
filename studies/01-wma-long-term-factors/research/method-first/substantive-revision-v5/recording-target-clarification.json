@@ -1,0 +1,7 @@
+{
+  "stage": "Secondary deterministic target clarification after fitting; no model/prior/holdout choice changed",
+  "reason": "Native delta_mm is the unrounded latent arithmetic-mean contrast. Integer-record means must integrate the rounding operator.",
+  "identity": "E[floor(Y*+0.5)]=sum_{k>=1} P(Y*>=k-0.5)",
+  "remainder_bound": "sum after K <= E[(Y*-(K-0.5))_+]",
+  "absolute_target_tolerance_mm": 1e-08
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "primary-source-additions-v1",
+  "scope": "Primary construction evidence added after the frozen 48-reference literature review; the earlier selected-literature registry is unchanged.",
+  "references": [
+    {
+      "key": "urbach1996manitoba",
+      "author": "Urbach, Ronald R. and Worel, Benjamin J.",
+      "title": "{SPS-5} Construction Report: {PTH} No. 1 Westbound, 35 Miles East of Winnipeg, Manitoba, Sections 830501 to 830509",
+      "institution": "Braun Intertec Corporation for the Federal Highway Administration, LTPP Division North Central Region",
+      "year": "1996",
+      "url": "https://infopave.fhwa.dot.gov/InfoPave_Repository/Reports/A20%20-%20Program%20Documentation/A20_20%20-%20SPS%20Construction%20and%20Deviation%20Reports%20%28as%20applicable%29/A20_20_50%20-%20SPS-5/SPS5_NC_MB_830500_Rep1.pdf",
+      "verification_urls": [
+        "https://infopave.fhwa.dot.gov/InfoPave_Repository/Reports/A20%20-%20Program%20Documentation/A20_20%20-%20SPS%20Construction%20and%20Deviation%20Reports%20%28as%20applicable%29/A20_20_50%20-%20SPS-5/SPS5_NC_MB_830500_Rep1.pdf"
+      ],
+      "evidence_level": "full_text",
+      "reading_scope": "Relevant original PDF pages inspected, not all 78 pages read. Cover visually checked; per-page scope recorded in the construction/clock/thickness research ledgers.",
+      "role_in_review": "Original allocation, construction, lane-clock and thickness evidence for Manitoba",
+      "local_source": "tmp/manitoba-original-verification-v1/SPS5_NC_MB_830500_Rep1.pdf",
+      "local_sha256": "175c99b260e56e2fe20e58989d622203f8ac5d850283400ad5a3e1fae02dc2c1",
+      "claims": [
+        {
+          "claim": "The pilot introduction and later layout/layer records give different nominal thickness descriptions.",
+          "locator": "PDF pp.4,13,16-17",
+          "limits": "Neither description is substituted for as-built overlay thickness."
+        },
+        {
+          "claim": "Grouped travel-lane top lifts opened on 12 September 1989; passing-lane opening follows on 13 September.",
+          "locator": "PDF pp.52-53, dated diary continuation; p.7 project summary",
+          "limits": "Group-level calendar/time records, not an assignment date or invented visit time zone."
+        },
+        {
+          "claim": "Layout decisions put milling sections in areas with existing cold-mix skin patches and arranged recycled sections for consecutive production.",
+          "locator": "PDF pp.75-76",
+          "limits": "Does not establish patch status for every minimum-preparation section or certify random allocation."
+        },
+        {
+          "claim": "The 1995 core table records total core thickness, including incomplete/broken specimens.",
+          "locator": "PDF pp.9,58-59",
+          "limits": "No separate new-overlay measurement or generic old-AC subtraction; ambiguous core/section identities remain open."
+        }
+      ]
+    },
+    {
+      "key": "carvalho2011rehabilitation",
+      "author": "Carvalho, R. and Ayres, M. and Shirazi, H. and Selezneva, O. and Darter, M.",
+      "title": "Impact of Design Features on Pavement Response and Performance in Rehabilitated Flexible and Rigid Pavements",
+      "institution": "Federal Highway Administration",
+      "number": "FHWA-HRT-10-066",
+      "year": "2011",
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/10066/index.cfm",
+      "verification_urls": [
+        "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/10066/index.cfm",
+        "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/10066/006.cfm"
+      ],
+      "evidence_level": "full_text",
+      "reading_scope": "Official technical documentation page and relevant chapter 5 methods/ranking text; not the entire 261-page report.",
+      "role_in_review": "Closest official SPS-5 repeated-measures and rehabilitation-ranking comparator",
+      "claims": [
+        {
+          "claim": "The SPS-5 analysis includes 18 projects and uses within-site repeated-measures ANOVA plus consolidated performance rankings.",
+          "locator": "Chapter 5, introduction, statistical approach/tests and summary of findings",
+          "limits": "Different population, outcomes and follow-up from the Manitoba-only panel; no direct numerical refutation."
+        },
+        {
+          "claim": "The ranking workflow uses statistical evidence and engineering judgment.",
+          "locator": "Chapter 5, summary of findings",
+          "limits": "Does not establish that every earlier ranking is wrong or inherently noncausal."
+        }
+      ]
+    },
+    {
+      "key": "gilbertson2000sps5",
+      "author": "Gilbertson, Craig and Skok, Gene and Watson, Dennis and Wilson, Tom and Worel, Benjamin",
+      "title": "Asphalt Overlay Cost-Effectiveness: Manitoba {TGS} and Minnesota {SPS-5} Projects 10-Year Ranking of Treatments (1989--1999)",
+      "institution": "Minnesota Department of Transportation",
+      "number": "MN/RC-2000-31",
+      "year": "2000",
+      "url": "https://rosap.ntl.bts.gov/view/dot/14705",
+      "verification_urls": [
+        "https://rosap.ntl.bts.gov/view/dot/14705",
+        "https://rosap.ntl.bts.gov/view/dot/14705/dot_14705_DS1.pdf"
+      ],
+      "evidence_level": "full_text",
+      "reading_scope": "Relevant official full-PDF text sections read; no full60-page reading or numeric Table5 visual verification claimed.",
+      "role_in_review": "Closest same-project historical condition/cost assessment; separates prior engineering observations from new record/dependence appraisal.",
+      "claims": [
+        {
+          "claim": "Brokenhead River and Bemidji were evaluated through1999 using condition and cost information.",
+          "locator": "Report introduction/executive summary; official record",
+          "limits": "Different endpoints and decision criterion from present native rut comparison."
+        },
+        {
+          "claim": "Narrative already reports layer-thickness variation and higher rutting on milled sections.",
+          "locator": "Printed pp6,12 (PDF22,28)",
+          "limits": "Does not certify present individual layer samples or effect attribution."
+        },
+        {
+          "claim": "Earlier rehabilitation recommendation incorporated other condition measures and maintenance/cost expectations.",
+          "locator": "Printed pp15–18 (PDF31–34)",
+          "limits": "Not directly refuted or re-estimated by a single recorded-rut contrast."
+        }
+      ]
+    }
+  ]
+}

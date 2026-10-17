@@ -1,0 +1,27 @@
+{
+  "status": "SAMPLED_SUMMARIZED_PENDING_DIAGNOSTIC_GATE",
+  "job": "manitoba--event-ell6-kappa11--pairloo--virgin-upper__1993|D",
+  "case": "manitoba",
+  "model": "event-ell6-kappa11",
+  "retained_per_chain": 2000,
+  "warmup_per_chain": 1000,
+  "chains": 4,
+  "seed": 21092585,
+  "data_sha256": "1e86ab2657f57298d0b063047a6099ed4c6c8c292d5526010f58c60c81ae4943",
+  "model_sha256": "ba2f3868ea0c1508fc9a4b4147f9a67dbd7066b582426a06da7fde9056909d5d",
+  "runtime_binding": {
+    "stanc_sha256": "f37a630c77e6c284b7818f7c2796555c72f47b6977cf8821f24661980626b79e",
+    "stansummary_sha256": "b3e2c0c96a51f15d8e416617e035e343641245c5680d181228fe9075b0910397",
+    "make_sha256": "2d3b9fca575be8e93c10ab74348055fa127a65cf628d52e9218ac76065cc6d22",
+    "compiler_sha256": "6b1a4bda50d34a0a7697cc3b7bc0937cfad1277e0e92373f4b1382e7d19c7985",
+    "shell_sha256": "6a5c557c031f8683a796240b89c14e47deb5f3337ae8d34c43b675f392b6e885"
+  },
+  "csv_sha256": {
+    "chain-1.csv": "75019c8509c2c36abf6bb88caa078469ecca5d289c0d29a19f66ed65c76bafec",
+    "chain-2.csv": "50a1e5fa45f5e6db86bda778c04f4f1eec27e15c141d2b6acd4c8629c1ba8661",
+    "chain-3.csv": "c8a050489f3332cc9d280836931691df28e81be60413f948d70ce8e0c3791d8e",
+    "chain-4.csv": "157dfbc12612a1060b151e973edbd7cf53458187329122cc124dd6a056111a05"
+  },
+  "summary_sha256": "a278cb2fa0e402bf7b5d3c1afd372e2b93223df0ca858b7b7fdba78cf3ffa07d",
+  "g": "UNDEFINED"
+}

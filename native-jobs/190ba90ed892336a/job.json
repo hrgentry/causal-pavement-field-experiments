@@ -1,0 +1,16 @@
+{
+  "name": "manitoba--event-rounded--full--primary",
+  "case": "manitoba",
+  "model": "event-rounded",
+  "role": "full",
+  "unit": "primary",
+  "seed": 21164939,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/manitoba.stan",
+  "model_source_sha256": "ba2f3868ea0c1508fc9a4b4147f9a67dbd7066b582426a06da7fde9056909d5d",
+  "data_file_sha256": "96826ef31017f438d521a75dcdad8ec2a7a390c64f5fd75b688150737b52d793"
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "SUBSTANTIVE_REVISION_V5",
+  "title": "Causal appraisal of asphalt pavement field experiments: warm mix asphalt and rehabilitation policies",
+  "status": "Frozen after v4 review, before new fitting; not prospective registration",
+  "baseline_pdf_sha256": "578d7d27f316f7df0f6b7c3cc4af43abda6f9669684198a7a54448d42d0fd9fd",
+  "baseline_source_manifest_sha256": "cfce44870d8fb665e6d58d373699205eb6ba23c2ab33a6ca1d6fb5fe547ff3a1",
+  "g": "UNDEFINED",
+  "author_declarations": "DEFERRED_BY_USER",
+  "national_database_reopened": false,
+  "sampling": {
+    "chains": 4,
+    "warmup": 1000,
+    "retained": 2000,
+    "adapt_delta": 0.99,
+    "max_treedepth": 12,
+    "seed": 20261023,
+    "precision_extension_retained": [
+      4000,
+      8000
+    ],
+    "extension_only_after_precision_failure": true,
+    "same_seed_data_model_and_prefix_required": true,
+    "duplicated_prefix_never_pooled": true
+  },
+  "sps10": {
+    "cohort": "Unchanged81/18/6 recorded panel",
+    "primary_empirical_support_projects": [
+      "04-AA00",
+      "12-AA00",
+      "32-AA00",
+      "41-AA00"
+    ],
+    "targets": "New6/New4 section-distribution means, Existing4 and E(WY); all bridge components and prior-to-posterior scales",
+    "bridge_identity": "Cnew6-Wmu = (Cnew6-Cnew4)+(Cnew4-Cexisting4)-(Wmu-Cexisting4)",
+    "full_models": [
+      "original iid reused",
+      "fixed-date-rho0.5 reused",
+      "estimated-date-rho Beta(2,2)",
+      "estimated-date-rho Beta(1,1) prior sensitivity",
+      "old sectionOU reused as sensitivity"
+    ],
+    "all_original_location_age_section_and_variance_priors_retained": false,
+    "likelihood": "Exact same-date compound-symmetry lognormal; rho learned rather than selected to fit a target",
+    "near5_folds": [
+      {
+        "project": "04-AA00",
+        "date": "2021-03-11",
+        "record_ids": [
+          "4|AA03|2|2021-03-11",
+          "4|AA02|2|2021-03-11",
+          "4|AA01|2|2021-03-11"
+        ],
+        "ages": [
+          4.799452429842574,
+          4.799452429842574,
+          4.799452429842574
+        ]
+      },
+      {
+        "project": "12-AA00",
+        "date": "2021-07-11",
+        "record_ids": [
+          "12|AA03|2|2021-07-11",
+          "12|AA02|2|2021-07-11",
+          "12|AA01|2|2021-07-11"
+        ],
+        "ages": [
+          4.8405201916495555,
+          4.8405201916495555,
+          4.837782340862423
+        ]
+      },
+      {
+        "project": "32-AA00",
+        "date": "2021-09-08",
+        "record_ids": [
+          "32|AA03|3|2021-09-08",
+          "32|AA02|3|2021-09-08",
+          "32|AA01|3|2021-09-08"
+        ],
+        "ages": [
+          5.262149212867898,
+          5.262149212867898,
+          5.262149212867898
+        ]
+      },
+      {
+        "project": "35-AA00",
+        "date": "2020-03-18",
+        "record_ids": [
+          "35|AA03|2|2020-03-18",
+          "35|AA02|2|2020-03-18",
+          "35|AA01|2|2020-03-18"
+        ],
+        "ages": [
+          5.385352498288843,
+          5.3990417522245036,
+          5.404517453798768
+        ]
+      },
+      {
+        "project": "41-AA00",
+        "date": "2020-08-06",
+        "record_ids": [
+          "41|AA03|2|2020-08-06",
+          "41|AA02|2|2020-08-06",
+          "41|AA01|2|2020-08-06"
+        ],
+        "ages": [
+          4.867898699520876,
+          4.867898699520876,
+          4.867898699520876
+        ]
+      }
+    ],
+    "near5_scope": "Systematic complete-date deletion; interpolation check at observed near5 ages, not truth at5 or new-section causal calibration",
+    "near5_refit_models": [
+      "iid",
+      "estimated-date-rho Beta(2,2)"
+    ],
+    "LOPO_projects": [
+      "04-AA00",
+      "12-AA00",
+      "32-AA00",
+      "35-AA00",
+      "41-AA00",
+      "53-AA00"
+    ],
+    "LOPO_models": [
+      "iid reuse only if semantically and byte-input verified, otherwise refit",
+      "estimated-date-rho Beta(2,2)"
+    ],
+    "LOPO_scope": "New-project recorded prediction, not validation of hypothetical conditional mean at5",
+    "validation_metrics": [
+      "paired mm predictive CRPS",
+      "log-ratio predictive density",
+      "95% predictive interval coverage",
+      "per-project outputs; no n-visit SE"
+    ],
+    "report_all_variants": true,
+    "no_material_equivalence_threshold_selected": true,
+    "new_prior_variants": {
+      "section-half": {
+        "section_sd": 0.1
+      },
+      "section-double": {
+        "section_sd": 0.4
+      },
+      "technology-double": {
+        "technology_intercept_multiplier": 2
+      }
+    },
+    "folds": "All five near5 dates and all six LOPO projects, unchanged v4 selectors, every variant",
+    "structural_completion": {
+      "lambda_grid": [
+        0,
+        0.5,
+        1
+      ],
+      "observed_offset": "v_ja=b_ja+u_ja; Var(b)=lambda*sigma_s^2, Var(u)=(1-lambda)*sigma_s^2",
+      "conditional_b": "N(lambda*v,lambda*(1-lambda)*sigma_s^2)",
+      "new_section_distribution_mean": "exp(f+b+(1-lambda)*sigma_s^2/2)",
+      "identification": "One observed section per project-technology cell: exactly identical integrated likelihood for every lambda. Prior equals posterior for lambda; same-task predictive law unchanged.",
+      "seed": 20261025
+    }
+  },
+  "manitoba": {
+    "panel": "Unchanged104/8/13, four physical preparation pairs",
+    "primary_family": "Actual linear/event family, not stationary-family proxy",
+    "new_prior_variants": {
+      "event-ell1p5": {
+        "ell_median": 1.5
+      },
+      "event-ell6": {
+        "ell_median": 6
+      },
+      "event-kappa11": {
+        "kappa_a": 1,
+        "kappa_b": 1
+      },
+      "event-kappa44": {
+        "kappa_a": 4,
+        "kappa_b": 4
+      },
+      "event-ell6-kappa11": {
+        "ell_median": 6,
+        "kappa_a": 1,
+        "kappa_b": 1
+      }
+    },
+    "default_prior": {
+      "ell_median": 3,
+      "ell_log_sd": 0.7,
+      "kappa_a": 2,
+      "kappa_b": 2
+    },
+    "rounding_scenario": {
+      "family": "linear/event",
+      "interval_half_width_mm": 0.5,
+      "likelihood": "Exact interval-censored latent multivariate lognormal with log-latent augmentation",
+      "claim": "Sensitivity to nearest-mm recording convention, not verified device protocol or physical calibration"
+    },
+    "validation": "All52 conditional physical-pair deletions, same records and PSIS thresholds as v4",
+    "psis": {
+      "max_pareto_k": 0.7,
+      "min_weight_ess": 400,
+      "bad_blocks": "Exact same-prior refits, never discard"
+    },
+    "scoring": "Continuous-record pair CRPS/log ratio plus nearest-mm predictive CRPS and joint bin log score; rounded-likelihood scenario uses bin mass for deletion weights",
+    "time_contribution": "All13 campaigns, signed gain, each pair/campaign and descriptive leave-one-campaign summaries; actual survey dates relative to recorded operations",
+    "operation_specificity": "No causal effect or unique optimality of operation timing claimed; no equal-complexity negative-control test is performed"
+  },
+  "numerical_gate": {
+    "max_rhat": 1.01,
+    "min_bulk_ess": 400,
+    "min_tail_ess": 400,
+    "max_mcse_sd": 0.05,
+    "min_chain_ebfmi": 0.3,
+    "divergences": 0,
+    "treedepth_hits": 0
+  },
+  "reporting": "All predeclared variants retained, including worse prediction or uncertain signs"
+}

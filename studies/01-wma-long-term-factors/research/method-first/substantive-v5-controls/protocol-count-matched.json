@@ -1,0 +1,32 @@
+{
+  "schema": "V5_MATCHED_CONTROL_AMENDMENT",
+  "title": "Causal appraisal of asphalt pavement field experiments: warm mix asphalt and rehabilitation policies",
+  "stage": "Frozen after independent scientific review and before new control fits; not prospective registration",
+  "baseline_pdf_sha256": "a7cbccf81a0917c14d8bd48e1c706c1038bec0f8ba664a152e6eb167fedc0b15",
+  "baseline_source_canonical": "6c1722d1ce4aba3a8dd09b631e386e0177370e2d060595a9f9dcb4d3f90c1795",
+  "sampling": {
+    "chains": 4,
+    "warmup": 1000,
+    "retained": 2000,
+    "adapt_delta": 0.99,
+    "max_treedepth": 12,
+    "seed": 20261031,
+    "precision_extension_retained": [
+      4000,
+      8000
+    ],
+    "extension_only_after_precision_failure": true,
+    "same_seed_data_model_and_prefix_required": true,
+    "duplicated_prefix_never_pooled": true
+  },
+  "controls": {
+    "stationary-rounded": "Same bounded latent interval likelihood as event-rounded; event_kernel=0, all other priors/mean/104records/13target campaigns unchanged",
+    "calendar-matched": "Same linear mean and2 independent Beta(2,2) attenuation parameters. Preserve observed min-to-max jump count separately for each road/counter. For n_j jumps use fractions k/(n_j+1) plus/minus1/[8*(nC+nS+1)] of each road observed-age range. No Y or actual operation dates choose cuts."
+  },
+  "parameter_count": "Calendar/event both have ell,sigma_process,sigma_visit and2 attenuation parameters; per-road/counter total jumps and prior cumulative attenuation over observed span are matched. Pairwise covariance geometry can differ; no unique physical mechanism inferred.",
+  "validation": "Same52 conditional physical-pair deletions, k<=.7 AND weightESS>=400 else exact same-prior refit; use bin mass for rounded likelihood",
+  "comparison_scope": "Test kernel benefit under a shared recording likelihood, and a clock-only equally parameterized alternative; report all outcomes even if event advantage disappears.",
+  "interval_invariance": "Move each actual operation inside its same observed-survey interval, retaining multiplicity; the event-count matrix and all52 tasks then have identical kernel law. This is a model-resolution property, not a causal timing claim.",
+  "g": "UNDEFINED",
+  "author_declarations": "DEFERRED_BY_USER"
+}

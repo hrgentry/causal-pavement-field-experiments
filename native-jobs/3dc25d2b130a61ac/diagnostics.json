@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "sps10--section-half--near5--12-AA00",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 221,
+  "structural_constants": [],
+  "max_rhat": 1.004933408209128,
+  "min_bulk_ess": 1844.80347703431,
+  "min_tail_ess": 2324.623502448255,
+  "max_mcse_sd": 0.023403736076793094,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7725886008571377,
+    0.7131266585144731,
+    0.7300263847695428,
+    0.7336842758823524
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "8c09b0d8e9231f75700a851e8596a8c56423d8cdab07bf72536b4ca813d66cef",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

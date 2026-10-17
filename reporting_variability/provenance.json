@@ -1,0 +1,16 @@
+{
+  "commit": "6640a1ebde04ea2f67c5c4a086c088665097a31a",
+  "inputs": {
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/astra-critic-revision-v2/manitoba-observed-pairs52.csv": "478230d33cd27361fe613af58d134cf3c9a2c8b9c9380ddad70020ceb51b73d1",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/recorded-rut-outcome-v1/panel81-recorded-scale.csv": "49cd7ba809d8a1b6d9afde6301cc25116d9643b06e2483dba2023a6be45e98ee",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v4/manitoba-held-pair-validation.csv": "d960772da029f0de009596871f5cbf9dd2c055a9480b265d9336dcde52397317",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v5/manitoba-validation.csv": "7638d8ea700bfcd36c960417f8bed0eb24ef550f57d130605464f52198ae28a5",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-v5-controls/manitoba-validation.csv": "e9ee05c050d64f72b7abb645970e5b4f3267c2b7afcbd21aefb58712471f40e4",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v4/sps10-held-pair-validation.csv": "5f2159320e74dbb4823605a9d2754e0e328b5a55c8ff685ebaf7e6dfacfc5f93",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v5/sps10-validation.csv": "5c573c6b2f9ff030a62d63acac04b7a89af88118933286a6cd39514324d532f4",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v5/sps10-target-draws.npz": "9e27d4ea39b4928cad6dff25ef8a6562cce86d6fa6c03be384a4354399616118",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-revision-v5/manitoba-target-draws.npz": "020b62e24266dc84d7898d276271bfcfd64a02b92207c64930d89d9f7d4e299a",
+    "studies/01-wma-long-term-factors/reproducibility/substantive-revision-v5b/versioned/studies/01-wma-long-term-factors/analysis/outputs/substantive-v5-controls/manitoba-target-draws.npz": "cde42879f62b78cdd9b0040ed5eb90436fc21e07b6400802bc808d176a9e4854"
+  },
+  "scope": "Descriptive variability only; no new effect estimates, posterior fitting or causal identification"
+}

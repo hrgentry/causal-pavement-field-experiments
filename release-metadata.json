@@ -1,0 +1,16 @@
+{
+  "schema": "SCOPED_PUBLIC_DATA_CODE_RELEASE",
+  "version": "v5b-20261017",
+  "repository_url": "https://github.com/hrgentry/causal-pavement-field-experiments",
+  "release_url": "https://github.com/hrgentry/causal-pavement-field-experiments/releases/tag/v5b-20261017",
+  "archive": "pavement-causal-appraisal-v5b-20261017.zip",
+  "maintainer_account": "hrgentry",
+  "manuscript_authors_not_declared": true,
+  "originating_local_snapshot": "6640a1ebde04ea2f67c5c4a086c088665097a31a",
+  "doi": null,
+  "licence_not_assigned": true,
+  "g": "UNDEFINED",
+  "native_jobs": 73,
+  "paper_total_fits": 135,
+  "new_refits_executed": 0
+}

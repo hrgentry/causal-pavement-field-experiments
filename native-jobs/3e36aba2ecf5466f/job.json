@@ -1,0 +1,16 @@
+{
+  "name": "sps10--technology-double--full--all",
+  "case": "sps10",
+  "model": "technology-double",
+  "role": "full",
+  "unit": "all",
+  "seed": 20982952,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/sps10.stan",
+  "model_source_sha256": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+  "data_file_sha256": "01c75fd3646e269ce142548cac00d3ce0e6153562d370d18b954c5dc8940a436"
+}

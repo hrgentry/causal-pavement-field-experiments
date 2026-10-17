@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "summed_terms": 240,
+  "maximum_individual_remainder_mm": 2.2934501074072822e-09,
+  "maximum_contrast_remainder_mm": 4.5869002148145645e-09,
+  "unrounded_gq_agreement": true,
+  "code_sha256": "cbb5316aa8354cf77f98694168f9013d01a6b39c5948999e4d6bbc79fe52cc60"
+}

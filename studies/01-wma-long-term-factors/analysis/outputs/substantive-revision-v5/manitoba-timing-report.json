@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "overlapping_units": 52,
+  "improved": 31,
+  "mean_gain_mm": 0.1330879956955706,
+  "years_2009_2010_fraction": 0.8476737008138793,
+  "no_operation_specific_negative_control": true,
+  "operation_timing_not_causal": true,
+  "code_sha256": "1ca9dc59ae9067821c651c52de60325ddd21cc98e39566e2987600d17d8d0d7d"
+}

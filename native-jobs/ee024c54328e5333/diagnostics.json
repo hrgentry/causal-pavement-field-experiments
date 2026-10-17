@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "manitoba--calendar-matched--pairloo--virgin-lower__1993|D",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 138,
+  "structural_constants": [],
+  "max_rhat": 1.001879220404593,
+  "min_bulk_ess": 1987.4425519158335,
+  "min_tail_ess": 1942.4781036085376,
+  "max_mcse_sd": 0.022628017937908904,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7329446505184095,
+    0.772356477464397,
+    0.7310268681127443,
+    0.6967392508777394
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "2acddf6363b8b511a2c5bd5ca5c283557e0402eca34cfa623eb38b72b0b0d4e6",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

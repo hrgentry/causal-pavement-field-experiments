@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "manitoba--event-kappa11--pairloo--recycled-lower__2017|D",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 138,
+  "structural_constants": [],
+  "max_rhat": 1.0018950884430713,
+  "min_bulk_ess": 1800.542318481568,
+  "min_tail_ess": 2793.896544396923,
+  "max_mcse_sd": 0.024253890321767755,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.6860686504343052,
+    0.6537643396475823,
+    0.7342806386368964,
+    0.7094354873304402
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "2e4e25f407d8a14355ed9c5889005d93aa5bdb82a046da0eade1cbf175fec588",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

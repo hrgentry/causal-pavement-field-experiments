@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "sps10--technology-double--near5--32-AA00",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 221,
+  "structural_constants": [],
+  "max_rhat": 1.001933461118958,
+  "min_bulk_ess": 1643.5816648963153,
+  "min_tail_ess": 1547.6677788401903,
+  "max_mcse_sd": 0.02489295704827983,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7337187879565207,
+    0.6930813659960363,
+    0.7040244805540269,
+    0.7171337929403145
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "903793ebc124f98f90b48175aa8a6361e2a15704de2685f2fcbd4ff8256d772b",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

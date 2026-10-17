@@ -1,0 +1,7 @@
+{
+  "status": "PASS_ALL_PREDECLARED_BLOCKS",
+  "units": 104,
+  "code_sha256": "8cc6be08f49b66dc4d40e6445d38c4773dc022b7664794ec1d41330a71758415",
+  "conditional_reconstruction_not_forecast": true,
+  "operation_timing_specificity_not_tested": true
+}

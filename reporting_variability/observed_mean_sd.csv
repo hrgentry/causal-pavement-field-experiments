@@ -1,0 +1,34 @@
+case,group,aggregation_unit,n,mean,descriptive_sd,units,physical_sections,projects,physical_pairs,campaigns,sd_is_standard_error,causal_effect
+SPS5,recycled / lower,repeated campaign differences within one physical pair,13,1.3076923076923077,2.626296993379823,mm,2,1,1,13,False,False
+SPS5,recycled / upper,repeated campaign differences within one physical pair,13,0.8461538461538461,1.1435437497937313,mm,2,1,1,13,False,False
+SPS5,virgin / lower,repeated campaign differences within one physical pair,13,0.7692307692307693,2.1661735138967266,mm,2,1,1,13,False,False
+SPS5,virgin / upper,repeated campaign differences within one physical pair,13,2.5384615384615383,0.9674179220468452,mm,2,1,1,13,False,False
+SPS5,all recorded pair differences,overlapping pair/campaign records,52,1.3653846153846154,1.9405764875604359,mm,8,1,4,13,False,False
+SPS5,four pair-history means,physical-pair temporal means,4,1.3653846153846154,0.8174019553484656,mm,8,1,4,13,False,False
+SPS5,campaign 1992|D,four physical-pair differences,4,0.5,1.2909944487358056,mm,8,1,4,1,False,False
+SPS5,campaign 1993|D,four physical-pair differences,4,0.5,1.7320508075688772,mm,8,1,4,1,False,False
+SPS5,campaign 1996|D,four physical-pair differences,4,1.25,1.5,mm,8,1,4,1,False,False
+SPS5,campaign 1998|D,four physical-pair differences,4,0.75,1.707825127659933,mm,8,1,4,1,False,False
+SPS5,campaign 2001|D,four physical-pair differences,4,1.0,2.0,mm,8,1,4,1,False,False
+SPS5,campaign 2002|D,four physical-pair differences,4,1.25,2.0615528128088303,mm,8,1,4,1,False,False
+SPS5,campaign 2004|D,four physical-pair differences,4,1.5,1.7320508075688772,mm,8,1,4,1,False,False
+SPS5,campaign 2006|D,four physical-pair differences,4,3.5,2.6457513110645907,mm,8,1,4,1,False,False
+SPS5,campaign 2009|D,four physical-pair differences,4,3.75,3.774917217635375,mm,8,1,4,1,False,False
+SPS5,campaign 2010|D,four physical-pair differences,4,1.0,1.1547005383792515,mm,8,1,4,1,False,False
+SPS5,campaign 2012|D,four physical-pair differences,4,1.0,0.816496580927726,mm,8,1,4,1,False,False
+SPS5,campaign 2014|D,four physical-pair differences,4,0.75,1.2583057392117916,mm,8,1,4,1,False,False
+SPS5,campaign 2017|D,four physical-pair differences,4,1.0,0.816496580927726,mm,8,1,4,1,False,False
+SPS10,04-AA00 C-H,complete-triplet date absolute differences,5,0.20320641282565138,0.14911758875761905,mm,2,1,0,0,False,False
+SPS10,04-AA00 F-H,complete-triplet date absolute differences,5,0.27815631262525053,0.2492852260427743,mm,2,1,0,0,False,False
+SPS10,12-AA00 C-H,complete-triplet date absolute differences,5,0.6300601202404807,0.26200670882980354,mm,2,1,0,0,False,False
+SPS10,12-AA00 F-H,complete-triplet date absolute differences,5,0.1599198396793587,0.1442704842809092,mm,2,1,0,0,False,False
+SPS10,32-AA00 C-H,complete-triplet date absolute differences,5,0.9315999999999997,0.4404756519945226,mm,2,1,0,0,False,False
+SPS10,32-AA00 F-H,complete-triplet date absolute differences,5,0.4551999999999999,0.3197392687800485,mm,2,1,0,0,False,False
+SPS10,35-AA00 C-H,complete-triplet date absolute differences,2,1.3136272545090184,0.378351724602822,mm,2,1,0,0,False,False
+SPS10,35-AA00 F-H,complete-triplet date absolute differences,2,0.31277755511022054,0.0019725303395024645,mm,2,1,0,0,False,False
+SPS10,41-AA00 C-H,complete-triplet date absolute differences,5,0.6612000000000001,0.39271007117210527,mm,2,1,0,0,False,False
+SPS10,41-AA00 F-H,complete-triplet date absolute differences,5,0.25719999999999993,0.1303272803368505,mm,2,1,0,0,False,False
+SPS10,53-AA00 C-H,one complete-triplet date,1,0.188376753507014,,mm,2,1,0,0,False,False
+SPS10,53-AA00 F-H,one complete-triplet date,1,0.03406813627254479,,mm,2,1,0,0,False,False
+SPS10,F-H project-equal absolute contrast,project-level date-mean absolute differences,6,0.2495536406145624,0.14257102721259077,mm,12,6,0,0,False,False
+SPS10,C-H project-equal absolute contrast,project-level date-mean absolute differences,6,0.6546784235136941,0.4319286832557909,mm,12,6,0,0,False,False

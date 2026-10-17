@@ -1,0 +1,17 @@
+model,role,contrast,projects,pair_records,project_equal_crps_mm
+rho-beta22,near5,F-H,5,5,0.14914803179137498
+rho-beta22,near5,C-H,5,5,0.13858739248336183
+rho-beta22,LOPO,F-H,6,23,0.2442222518553232
+rho-beta22,LOPO,C-H,6,23,0.5404902370265948
+section-half,near5,F-H,5,5,0.15040467010823882
+section-half,near5,C-H,5,5,0.14137685862493768
+section-half,LOPO,F-H,6,23,0.23511864943640837
+section-half,LOPO,C-H,6,23,0.5411946658620898
+section-double,near5,F-H,5,5,0.14984979773505552
+section-double,near5,C-H,5,5,0.14071972504516547
+section-double,LOPO,F-H,6,23,0.2473412310548334
+section-double,LOPO,C-H,6,23,0.5404057382694915
+technology-double,near5,F-H,5,5,0.1511283650908623
+technology-double,near5,C-H,5,5,0.13917102640335757
+technology-double,LOPO,F-H,6,23,0.2494618590393961
+technology-double,LOPO,C-H,6,23,0.5511921817422639

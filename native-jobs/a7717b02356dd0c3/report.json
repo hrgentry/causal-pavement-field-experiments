@@ -1,0 +1,27 @@
+{
+  "status": "SAMPLED_SUMMARIZED_PENDING_DIAGNOSTIC_GATE",
+  "job": "sps10--technology-double--LOPO--12-AA00",
+  "case": "sps10",
+  "model": "technology-double",
+  "retained_per_chain": 2000,
+  "warmup_per_chain": 1000,
+  "chains": 4,
+  "seed": 20827123,
+  "data_sha256": "2a4c75b28f290eec284b33bc90f496a25bed4d89f2a305ef1e501838eacd15d6",
+  "model_sha256": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+  "runtime_binding": {
+    "stanc_sha256": "f37a630c77e6c284b7818f7c2796555c72f47b6977cf8821f24661980626b79e",
+    "stansummary_sha256": "b3e2c0c96a51f15d8e416617e035e343641245c5680d181228fe9075b0910397",
+    "make_sha256": "2d3b9fca575be8e93c10ab74348055fa127a65cf628d52e9218ac76065cc6d22",
+    "compiler_sha256": "6b1a4bda50d34a0a7697cc3b7bc0937cfad1277e0e92373f4b1382e7d19c7985",
+    "shell_sha256": "6a5c557c031f8683a796240b89c14e47deb5f3337ae8d34c43b675f392b6e885"
+  },
+  "csv_sha256": {
+    "chain-1.csv": "66345192393e2ff82afe06e4f2c1b57487e5a0b6fc52a5a3e8b3392a4362eb38",
+    "chain-2.csv": "3df10a23343008b269c0d08add175e8d05302793121e370be4fcdeb6594052ef",
+    "chain-3.csv": "3e5be06d83b1a4e57015e997f128c5c4a6f8964c13f4c71efb93cab86bab58ba",
+    "chain-4.csv": "09729d6ed94815d7462a3c50083635c18542aa6b1c439113f0d3a79d8919100f"
+  },
+  "summary_sha256": "105b95736c11cad2fd726ca707a2139dec5b0823f059357e5baec507cda9368c",
+  "g": "UNDEFINED"
+}

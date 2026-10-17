@@ -1,0 +1,81 @@
+{
+  "schema": "primary-source-additions-v5",
+  "verified_date": "2026-10-17",
+  "references": [
+    {
+      "key": "prozzi2010ate",
+      "author": "Prozzi, Jorge A. and Hong, Feng",
+      "title": "Average Treatment Effect for Modeling Maintenance Work",
+      "journal": "Journal of Infrastructure Systems",
+      "year": "2010",
+      "volume": "16",
+      "number": "2",
+      "pages": "122--128",
+      "doi": "10.1061/(ASCE)1076-0342(2010)16:2(122)",
+      "url": "https://ascelibrary.org/doi/10.1061/%28ASCE%291076-0342%282010%2916%3A2%28122%29",
+      "role_in_review": "Closest road-domain selection/timing causal analysis; not a reproduced estimator.",
+      "evidence_level": "full_text",
+      "verification_urls": [
+        "https://ascelibrary.org/doi/10.1061/%28ASCE%291076-0342%282010%2916%3A2%28122%29"
+      ],
+      "reading_scope": "Methods, data, empirical results and conclusions read from the user-supplied final article; key equation/DAG page also inspected visually. Bibliographic metadata checked against publisher.",
+      "claims": [
+        {
+          "claim": "Population ATE, treated and untreated subpopulation effects; conditional mean ignorability on existing surface/base/subbase thickness and accumulated log ESAL.",
+          "locator": "doc:e53cf58/tier:flash/page:3; journal p.124, Eqs.1-4,10-12",
+          "limits": "A controlled AASHO design argument, not certified for every LTPP experiment."
+        },
+        {
+          "claim": "OLS model adds treatment times centered-covariate interactions; case is approximately three-inch AASHO overlays and PSI, with treatment triggered by PSI below1.5.",
+          "locator": "doc:e53cf58/tier:flash/page:4-6; journal pp.125-127, Eq.15, Tables2-4",
+          "limits": "No shared-data numerical reproduction here; own rut-depth targets differ."
+        }
+      ],
+      "local_source": "studies/01-wma-long-term-factors/research/method-first/substantive-revision-v5/nearest-causal-literature-notes.json",
+      "local_sha256": "5067c62004468d741886e20d0a3c1aa28e50424cbd2bdbf3e46d352e913bbd72",
+      "local_source_kind": "reviewer_created_source_notes_not_redistributed_fulltext",
+      "source_pdf_sha256": "e53cf5811cf46cebd4e3f52e8ef4e0172e7ae7555c90698cb1db2f883e53c5cd",
+      "source_filename": "2010-average-treatment-effect-for-modeling-maintenance-work.pdf"
+    },
+    {
+      "key": "you2024causal",
+      "author": "You, Lingyun and Guo, Nanning and Long, Zhengwu and Wang, Fusong and Si, Chundi and Diab, Aboelkasim",
+      "title": "Appraising annual post-maintenance functional performance of asphalt roadway based on causal inference approach",
+      "journal": "International Journal of Pavement Engineering",
+      "year": "2024",
+      "volume": "25",
+      "number": "1",
+      "pages": "2381060",
+      "doi": "10.1080/10298436.2024.2381060",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10298436.2024.2381060",
+      "role_in_review": "Closest road-domain structural/potential-outcome maintenance evaluation; no inferred full-text implementation.",
+      "evidence_level": "full_text",
+      "verification_urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/10298436.2024.2381060"
+      ],
+      "reading_scope": "Methods, data, empirical results and conclusions read from the user-supplied final article; key equation/DAG page also inspected visually. Bibliographic metadata checked against publisher.",
+      "claims": [
+        {
+          "claim": "SPS-3 four preventive treatments versus untreated, annual low-severity longitudinal wheel-path cracking over five years; matching uses temperature, freezing index and cumulative ESAL.",
+          "locator": "doc:76159ad/tier:flash/page:6-8; printed pp.5-7, Sections3.1-3.2 and Fig.3",
+          "limits": "Endpoint, trial and exposure clock differ from SPS-10 and Manitoba SPS-5."
+        },
+        {
+          "claim": "Logistic generalized additive propensity model, one-to-one nearest matching with replacement, balance statistics/score distributions; the article acknowledges some remaining imbalance.",
+          "locator": "doc:76159ad/tier:flash/page:8-10; printed pp.7-9, Eq.8 and Tables1-4",
+          "limits": "Balance of measured covariates does not by itself demonstrate exchangeability or validate the present physical-section transfer."
+        },
+        {
+          "claim": "Pretreatment condition is excluded partly on the stated assumption that it does not determine treatment; unavailable precipitation/moisture is acknowledged.",
+          "locator": "doc:76159ad/tier:flash/page:6-7; printed pp.5-6, Section3.1",
+          "limits": "This is a study-specific assumption; its exclusion is not transported to Manitoba where original patch-dependent placement is documented."
+        }
+      ],
+      "local_source": "studies/01-wma-long-term-factors/research/method-first/substantive-revision-v5/nearest-causal-literature-notes.json",
+      "local_sha256": "5067c62004468d741886e20d0a3c1aa28e50424cbd2bdbf3e46d352e913bbd72",
+      "local_source_kind": "reviewer_created_source_notes_not_redistributed_fulltext",
+      "source_pdf_sha256": "76159adf1d89c1c9835dfc5b15dea46da85055a6f52c659973074015879c7a6e",
+      "source_filename": "Appraising annual post-maintenance functional performance of asphalt roadway based on causal inference approach.pdf"
+    }
+  ]
+}

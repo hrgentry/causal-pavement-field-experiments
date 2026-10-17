@@ -1,0 +1,38 @@
+{
+  "schema": "primary-source-additions-v4",
+  "verified_date": "2026-10-17",
+  "references": [
+    {
+      "key": "burkner2020nonfactorized",
+      "author": "B{\\\"u}rkner, Paul-Christian and Gabry, Jonah and Vehtari, Aki",
+      "title": "Efficient leave-one-out cross-validation for {Bayesian} non-factorized normal and {Student-t} models",
+      "journal": "Computational Statistics",
+      "year": "2021",
+      "volume": "36",
+      "pages": "1243--1261",
+      "doi": "10.1007/s00180-020-01045-4",
+      "url": "https://link.springer.com/article/10.1007/s00180-020-01045-4",
+      "verification_urls": ["https://link.springer.com/article/10.1007/s00180-020-01045-4", "https://mc-stan.org/loo/articles/loo2-non-factorized.html"],
+      "evidence_level": "full_text",
+      "reading_scope": "Publisher metadata and relevant normal conditional-deletion equations, plus official loo implementation vignette. Not a claim to have read every case-study passage.",
+      "role_in_review": "Conditional deletion for a correlated Gaussian outcome; the current study uses two-row physical-pair blocks.",
+      "claims": [{"claim": "Non-factorized normal models permit exact conditional-deletion means and variances using the precision matrix.", "locator": "Publisher section 2.1 and official loo vignette LOO-CV for multivariate normal models", "limits": "The two-row block is derived and checked here. It does not validate the pavement model, latent mean calibration or causal interpretation."}]
+    },
+    {
+      "key": "vehtari2024psis",
+      "author": "Vehtari, Aki and Simpson, Daniel and Gelman, Andrew and Yao, Yuling and Gabry, Jonah",
+      "title": "Pareto Smoothed Importance Sampling",
+      "journal": "Journal of Machine Learning Research",
+      "year": "2024",
+      "volume": "25",
+      "number": "72",
+      "pages": "1--58",
+      "url": "https://jmlr.org/papers/v25/19-556.html",
+      "verification_urls": ["https://jmlr.org/papers/v25/19-556.html", "https://mc-stan.org/loo/reference/psis.html"],
+      "evidence_level": "abstract_only",
+      "reading_scope": "Primary journal metadata and abstract; implementation and approximation limits checked against official loo documentation.",
+      "role_in_review": "Stabilized importance weighting and reliability diagnostics, with exact fallback rather than omission.",
+      "claims": [{"claim": "PSIS stabilizes importance weights and provides tail and effective-sample-size diagnostics.", "locator": "JMLR abstract; official loo psis reference and non-factorized vignette exact-refit discussion", "limits": "The study-specific ESS400 rule is a declared conservative gate, not a universal paper theorem; all unreliable blocks are exactly refitted."}]
+    }
+  ]
+}

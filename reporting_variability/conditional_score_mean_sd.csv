@@ -1,0 +1,43 @@
+experiment,model,metric,n_records,physical_pairs,physical_sections,campaigns,mean,descriptive_sd,independent_unit_se,units
+base,linear-stationary,crps_mm,52,4,8,13,0.7642392963455992,0.7969917460716879,False,mm
+base,linear-stationary,log_ratio_predictive_density,52,4,8,13,0.04502661057519607,0.9218440747692748,False,log score
+base,cn-reset,crps_mm,52,4,8,13,0.76237485301608,0.5871012118165355,False,mm
+base,cn-reset,log_ratio_predictive_density,52,4,8,13,0.11793433643601606,0.5523002841715038,False,log score
+base,bend-stationary,crps_mm,52,4,8,13,0.7928351079245495,0.7787173335985174,False,mm
+base,bend-stationary,log_ratio_predictive_density,52,4,8,13,0.0472374288998317,0.8546768153360997,False,log score
+base,linear-event,crps_mm,52,4,8,13,0.6311513006500286,0.5089807605164686,False,mm
+base,linear-event,log_ratio_predictive_density,52,4,8,13,0.2456274626700672,0.5655537489517788,False,log score
+base,bend-event,crps_mm,52,4,8,13,0.709613464536587,0.6136603543376048,False,mm
+base,bend-event,log_ratio_predictive_density,52,4,8,13,0.15944261344437252,0.6525972362799116,False,log score
+v5,event-ell1p5,crps_mm,52,4,8,13,0.6493239801872777,0.544575142680714,False,mm
+v5,event-ell1p5,rounded_crps_mm,52,4,8,13,0.6292058645181994,0.5501114935293041,False,mm
+v5,event-ell1p5,joint_bin_log_score,52,4,8,13,-2.680290414178119,1.3189217321708824,False,log score
+v5,event-ell1p5,log_ratio_predictive_density,52,4,8,13,0.22093762403845846,0.5793660978481673,False,log score
+v5,event-ell6,crps_mm,52,4,8,13,0.6125985763511682,0.46449886295563664,False,mm
+v5,event-ell6,rounded_crps_mm,52,4,8,13,0.5934746360035049,0.469509672066471,False,mm
+v5,event-ell6,joint_bin_log_score,52,4,8,13,-2.6719660033560064,1.368838330496476,False,log score
+v5,event-ell6,log_ratio_predictive_density,52,4,8,13,0.26093617923418244,0.5510907873296701,False,log score
+v5,event-kappa11,crps_mm,52,4,8,13,0.6293683589451223,0.5027156552463405,False,mm
+v5,event-kappa11,rounded_crps_mm,52,4,8,13,0.6092877344010678,0.5066748387553466,False,mm
+v5,event-kappa11,joint_bin_log_score,52,4,8,13,-2.6502488767212515,1.341947267394341,False,log score
+v5,event-kappa11,log_ratio_predictive_density,52,4,8,13,0.24270156895965622,0.5765383175583305,False,log score
+v5,event-kappa44,crps_mm,52,4,8,13,0.6319000570761156,0.4992623490052744,False,mm
+v5,event-kappa44,rounded_crps_mm,52,4,8,13,0.6115477119655618,0.5033303760997289,False,mm
+v5,event-kappa44,joint_bin_log_score,52,4,8,13,-2.687659399783347,1.3472059018170934,False,log score
+v5,event-kappa44,log_ratio_predictive_density,52,4,8,13,0.24391743367499588,0.556126439304862,False,log score
+v5,event-ell6-kappa11,crps_mm,52,4,8,13,0.6133450629893745,0.4643540813661644,False,mm
+v5,event-ell6-kappa11,rounded_crps_mm,52,4,8,13,0.5919140163128501,0.46923069460947664,False,mm
+v5,event-ell6-kappa11,joint_bin_log_score,52,4,8,13,-2.6528279089228586,1.3607636557927743,False,log score
+v5,event-ell6-kappa11,log_ratio_predictive_density,52,4,8,13,0.2577443904000581,0.5660445832999149,False,log score
+v5,event-rounded,crps_mm,52,4,8,13,0.5783206744019503,0.45010628249542334,False,mm
+v5,event-rounded,rounded_crps_mm,52,4,8,13,0.5609440696812199,0.4533292350194267,False,mm
+v5,event-rounded,joint_bin_log_score,52,4,8,13,-2.520343099432818,1.291688450632041,False,log score
+v5,event-rounded,log_ratio_predictive_density,52,4,8,13,0.3445163892591978,0.6819652829857361,False,log score
+controls,stationary-rounded,crps_mm,52,4,8,13,0.7424701308151422,0.8276705405445983,False,mm
+controls,stationary-rounded,rounded_crps_mm,52,4,8,13,0.7241774234761568,0.8300616328555134,False,mm
+controls,stationary-rounded,joint_bin_log_score,52,4,8,13,-2.692056606115745,1.523163588065083,False,log score
+controls,stationary-rounded,log_ratio_predictive_density,52,4,8,13,0.05862325893133517,1.1841964018857067,False,log score
+controls,calendar-matched,crps_mm,52,4,8,13,0.7230875270271054,0.6943199368436719,False,mm
+controls,calendar-matched,rounded_crps_mm,52,4,8,13,0.7038600494193693,0.7008724777580841,False,mm
+controls,calendar-matched,joint_bin_log_score,52,4,8,13,-2.765060835404776,1.2986874873600698,False,log score
+controls,calendar-matched,log_ratio_predictive_density,52,4,8,13,0.11127983218299978,0.723083703129035,False,log score

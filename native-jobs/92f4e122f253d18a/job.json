@@ -1,0 +1,16 @@
+{
+  "name": "manitoba--event-ell6-kappa11--pairloo--virgin-lower__1992|D",
+  "case": "manitoba",
+  "model": "event-ell6-kappa11",
+  "role": "pairloo",
+  "unit": "virgin-lower__1992|D",
+  "seed": 21039942,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/manitoba.stan",
+  "model_source_sha256": "ba2f3868ea0c1508fc9a4b4147f9a67dbd7066b582426a06da7fde9056909d5d",
+  "data_file_sha256": "01886497854bbdc28b65fb32a14ab09c3cd1e9dddcdd3229777af9aaa273260e"
+}

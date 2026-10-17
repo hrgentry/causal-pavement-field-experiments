@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "manitoba--event-rounded--full--primary",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 244,
+  "structural_constants": [],
+  "max_rhat": 1.0031164381549058,
+  "min_bulk_ess": 1854.9119991500331,
+  "min_tail_ess": 3018.2999723509706,
+  "max_mcse_sd": 0.02328219338670053,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7492367407458024,
+    0.7009646366909961,
+    0.6980202062079421,
+    0.7276385013463311
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "42b34528cc5609e9c1a91147db98bf2a36a227364f9d885dc2342cf7895e840c",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

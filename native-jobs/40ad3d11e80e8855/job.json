@@ -1,0 +1,16 @@
+{
+  "name": "manitoba--event-ell6-kappa11--pairloo--virgin-upper__1993|D",
+  "case": "manitoba",
+  "model": "event-ell6-kappa11",
+  "role": "pairloo",
+  "unit": "virgin-upper__1993|D",
+  "seed": 21092585,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/manitoba.stan",
+  "model_source_sha256": "ba2f3868ea0c1508fc9a4b4147f9a67dbd7066b582426a06da7fde9056909d5d",
+  "data_file_sha256": "1e86ab2657f57298d0b063047a6099ed4c6c8c292d5526010f58c60c81ae4943"
+}

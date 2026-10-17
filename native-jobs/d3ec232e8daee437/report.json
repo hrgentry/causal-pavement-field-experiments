@@ -1,0 +1,27 @@
+{
+  "status": "SAMPLED_SUMMARIZED_PENDING_DIAGNOSTIC_GATE",
+  "job": "sps10--section-double--near5--12-AA00",
+  "case": "sps10",
+  "model": "section-double",
+  "retained_per_chain": 2000,
+  "warmup_per_chain": 1000,
+  "chains": 4,
+  "seed": 20876767,
+  "data_sha256": "974d98d7ebbd3b81b373a3ea7c24ca633948502a7a89d1d961fa125694fee66a",
+  "model_sha256": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+  "runtime_binding": {
+    "stanc_sha256": "f37a630c77e6c284b7818f7c2796555c72f47b6977cf8821f24661980626b79e",
+    "stansummary_sha256": "b3e2c0c96a51f15d8e416617e035e343641245c5680d181228fe9075b0910397",
+    "make_sha256": "2d3b9fca575be8e93c10ab74348055fa127a65cf628d52e9218ac76065cc6d22",
+    "compiler_sha256": "6b1a4bda50d34a0a7697cc3b7bc0937cfad1277e0e92373f4b1382e7d19c7985",
+    "shell_sha256": "6a5c557c031f8683a796240b89c14e47deb5f3337ae8d34c43b675f392b6e885"
+  },
+  "csv_sha256": {
+    "chain-1.csv": "b802e91ae3d45c21250b5b2f859ef87604d62e2fcea012aa708d182db99e2caa",
+    "chain-2.csv": "251dd1de5befd10e20153edac29b3d2c3eacb816b4c98dc6488171e42176790f",
+    "chain-3.csv": "a69077f70a3ef71f280ea96d4228fe811164f4a8ef26ea9aeb6f51103ea6c1af",
+    "chain-4.csv": "d8cbd370ea70b1116784be3f2fc9602bef85f748addade06b7d59560aa4f2b48"
+  },
+  "summary_sha256": "a2ed02700f42f71c55151d3fd6d8ae2a7b3d9912231d46b1ff9b2271579fc077",
+  "g": "UNDEFINED"
+}

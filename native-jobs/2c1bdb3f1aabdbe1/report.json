@@ -1,0 +1,27 @@
+{
+  "status": "SAMPLED_SUMMARIZED_PENDING_DIAGNOSTIC_GATE",
+  "job": "manitoba--event-kappa44--pairloo--virgin-lower__1996|D",
+  "case": "manitoba",
+  "model": "event-kappa44",
+  "retained_per_chain": 2000,
+  "warmup_per_chain": 1000,
+  "chains": 4,
+  "seed": 21023642,
+  "data_sha256": "3f5f1f00aca5dd11ab589ad0afbfc334563e3c3eb9cf069b4772bdcf03015825",
+  "model_sha256": "ba2f3868ea0c1508fc9a4b4147f9a67dbd7066b582426a06da7fde9056909d5d",
+  "runtime_binding": {
+    "stanc_sha256": "f37a630c77e6c284b7818f7c2796555c72f47b6977cf8821f24661980626b79e",
+    "stansummary_sha256": "b3e2c0c96a51f15d8e416617e035e343641245c5680d181228fe9075b0910397",
+    "make_sha256": "2d3b9fca575be8e93c10ab74348055fa127a65cf628d52e9218ac76065cc6d22",
+    "compiler_sha256": "6b1a4bda50d34a0a7697cc3b7bc0937cfad1277e0e92373f4b1382e7d19c7985",
+    "shell_sha256": "6a5c557c031f8683a796240b89c14e47deb5f3337ae8d34c43b675f392b6e885"
+  },
+  "csv_sha256": {
+    "chain-1.csv": "b0b0b751108797ef1aee43a5b998261387e4bbbadb74a6924e163829ba7711d8",
+    "chain-2.csv": "871b607425e6bd00390cfd71b02d3cfac341a82b37affdf70b1b929bef7856cd",
+    "chain-3.csv": "e375fe76ea05945197dee1ba1807d7350d124f6cfe5b92329dfd47c3af847e87",
+    "chain-4.csv": "7819e06f56d60de85dc76c65bd72e8ad583af43962857168875544da14a93e7b"
+  },
+  "summary_sha256": "0696a427f2c6536c42ebcdd23398a89a99dc26f248fdf2ea7e3c9bf476db0f2c",
+  "g": "UNDEFINED"
+}

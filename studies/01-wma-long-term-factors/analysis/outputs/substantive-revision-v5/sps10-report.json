@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "model": "rho-beta22",
+      "lambda_value": 0,
+      "bridge_max_error": 2.7755575615628914e-16
+    },
+    {
+      "model": "rho-beta22",
+      "lambda_value": 0.5,
+      "bridge_max_error": 2.7755575615628914e-16
+    },
+    {
+      "model": "rho-beta22",
+      "lambda_value": 1,
+      "bridge_max_error": 5.551115123125783e-17
+    },
+    {
+      "model": "section-half",
+      "lambda_value": 0,
+      "bridge_max_error": 3.3306690738754696e-16
+    },
+    {
+      "model": "section-half",
+      "lambda_value": 0.5,
+      "bridge_max_error": 1.6653345369377348e-16
+    },
+    {
+      "model": "section-half",
+      "lambda_value": 1,
+      "bridge_max_error": 5.551115123125783e-17
+    },
+    {
+      "model": "section-double",
+      "lambda_value": 0,
+      "bridge_max_error": 3.3306690738754696e-16
+    },
+    {
+      "model": "section-double",
+      "lambda_value": 0.5,
+      "bridge_max_error": 3.3306690738754696e-16
+    },
+    {
+      "model": "section-double",
+      "lambda_value": 1,
+      "bridge_max_error": 5.551115123125783e-17
+    },
+    {
+      "model": "technology-double",
+      "lambda_value": 0,
+      "bridge_max_error": 3.469446951953614e-16
+    },
+    {
+      "model": "technology-double",
+      "lambda_value": 0.5,
+      "bridge_max_error": 2.7755575615628914e-16
+    },
+    {
+      "model": "technology-double",
+      "lambda_value": 1,
+      "bridge_max_error": 1.1102230246251565e-16
+    }
+  ],
+  "lambda_identified": false,
+  "lambda_changes_observed_likelihood": false,
+  "same_task_scores_identical_across_lambda": true,
+  "code_sha256": "8cc6be08f49b66dc4d40e6445d38c4773dc022b7664794ec1d41330a71758415"
+}

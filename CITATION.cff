@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this fixed data/code release; the maintainer account is not a manuscript author declaration."
+type: dataset
+title: "Derived records, models and reproducibility materials for causal appraisal of asphalt pavement field experiments"
+authors:
+  - name: hrgentry
+version: "v5b-20261017"
+date-released: "2026-10-17"
+url: "https://github.com/hrgentry/causal-pavement-field-experiments/releases/tag/v5b-20261017"
+repository-code: "https://github.com/hrgentry/causal-pavement-field-experiments"

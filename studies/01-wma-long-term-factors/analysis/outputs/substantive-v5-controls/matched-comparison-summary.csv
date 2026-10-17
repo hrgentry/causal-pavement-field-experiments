@@ -1,0 +1,3 @@
+comparison,reference,alternative,score,units,reference_mean_mm,alternative_mean_mm,mean_gain_mm,improved,scope
+point-event-vs-count-matched,calendar-matched,linear-event,crps_mm,52,0.7230875270271054,0.6311513006500286,0.09193622637707694,36,"Same conditional reconstruction task; overlapping units, no independent-unit SE or causal operation-effect estimate"
+interval-event-vs-stationary,stationary-rounded,event-rounded,rounded_crps_mm,52,0.7241774234761569,0.5609440696812199,0.16323335379493686,30,"Same conditional reconstruction task; overlapping units, no independent-unit SE or causal operation-effect estimate"

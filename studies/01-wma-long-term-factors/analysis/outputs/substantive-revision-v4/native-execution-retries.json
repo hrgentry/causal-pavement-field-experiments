@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETED_SAME_CONFIG_NATIVE_RETRIES",
+  "attempts": [
+    {
+      "job": "sps10--rho-beta22--near5--35-AA00",
+      "initial_failure": "tmp/substantive-revision-v4/jobs/3a8644e8b6cf49a5/retained-2000/failure.json",
+      "initial_returncodes": [
+        3221225506,
+        0,
+        0,
+        0
+      ],
+      "new_run": "tmp/substantive-revision-v4/jobs/3a8644e8b6cf49a5/same-config-native-retry-1/retained-2000",
+      "same_model_data_prior_seed": true,
+      "matched_existing_numeric_rows_per_chain": [
+        1007,
+        3000,
+        3000,
+        3000
+      ],
+      "numerical_prefix_exact": true,
+      "text_format_only_different_rows": 0,
+      "incomplete_and_completed_old_chains_not_pooled": true,
+      "cause": "Observed native Windows process abort; specific system cause not established"
+    },
+    {
+      "job": "sps10--iid--near5--41-AA00",
+      "initial_failure": "tmp/substantive-revision-v4/jobs/6271e96236b6f572/retained-2000/failure.json",
+      "initial_returncodes": [
+        0,
+        0,
+        0,
+        3221225477
+      ],
+      "new_run": "tmp/substantive-revision-v4/jobs/6271e96236b6f572/same-config-native-retry-1/retained-2000",
+      "same_model_data_prior_seed": true,
+      "matched_existing_numeric_rows_per_chain": [
+        3000,
+        3000,
+        3000,
+        579
+      ],
+      "numerical_prefix_exact": true,
+      "text_format_only_different_rows": 1,
+      "incomplete_and_completed_old_chains_not_pooled": true,
+      "cause": "Observed native Windows process abort; specific system cause not established"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "sps10--section-double--LOPO--53-AA00",
+  "case": "sps10",
+  "model": "section-double",
+  "role": "LOPO",
+  "unit": "53-AA00",
+  "seed": 20588249,
+  "chains": 4,
+  "warmup": 1000,
+  "retained": 2000,
+  "adapt_delta": 0.99,
+  "max_treedepth": 12,
+  "model_source": "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v5/sps10.stan",
+  "model_source_sha256": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+  "data_file_sha256": "bb0c542f0cbd72c9e77d36892636194bc05225beaf104dba04598395288618d1"
+}

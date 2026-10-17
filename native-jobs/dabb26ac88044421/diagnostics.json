@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "manitoba--event-rounded--pairloo--virgin-upper__1993|D",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 240,
+  "structural_constants": [],
+  "max_rhat": 1.0031680931428644,
+  "min_bulk_ess": 2153.1361764460644,
+  "min_tail_ess": 3758.851576418974,
+  "max_mcse_sd": 0.021628439153162496,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.777331741197518,
+    0.765012257188838,
+    0.7383646840921626,
+    0.7301156543710271
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "66b63fb5f5662e4102edffef0de0bbb5c740510a4dc58df8991b03b883b6e5f8",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

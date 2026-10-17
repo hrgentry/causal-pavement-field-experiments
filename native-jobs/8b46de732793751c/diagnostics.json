@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "sps10--section-double--full--all",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 302,
+  "structural_constants": [],
+  "max_rhat": 1.0026344909776728,
+  "min_bulk_ess": 1964.2038848520644,
+  "min_tail_ess": 2122.1417774080887,
+  "max_mcse_sd": 0.022633754909074995,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7412060045905396,
+    0.7766455986027113,
+    0.7296386555867661,
+    0.7874562471838372
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "f3fcedb4f8cc953220d2f632ea5d96bee3e895dca80f10ba2c974cd2bfd6c1e8",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

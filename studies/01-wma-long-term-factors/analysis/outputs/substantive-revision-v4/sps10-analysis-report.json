@@ -1,0 +1,35 @@
+{
+  "status": "PASS_TARGET_BRIDGE_AND_GROUPED_VALIDATION_COMPUTED",
+  "bridge_identity_max_error": 4.440892098500626e-16,
+  "models": [
+    "iid-reference",
+    "fixed-date-r050",
+    "section-OU-fixed",
+    "rho-beta22",
+    "rho-uniform"
+  ],
+  "native_jobs_required": 24,
+  "independently_recomputed_stan_generated_quantity_max_errors": {
+    "rho-beta22": 1.0658141036401503e-14,
+    "rho-uniform": 1.2434497875801753e-14
+  },
+  "near5_projects": 5,
+  "near5_not_exact_latent5_validation": true,
+  "LOPO_not_conditional_new_section_mean_validation": true,
+  "primary_supported_projects": [
+    "04-AA00",
+    "12-AA00",
+    "32-AA00",
+    "41-AA00"
+  ],
+  "g": "UNDEFINED",
+  "causal_effect_identified": false,
+  "analysis_code_sha256": "a9761c7b84fc35a589166613622edc3d13e0bd4c0ad127a878c3cd5d534a1b5f",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

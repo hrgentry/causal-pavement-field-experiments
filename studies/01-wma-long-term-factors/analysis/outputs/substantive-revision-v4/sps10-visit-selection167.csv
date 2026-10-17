@@ -1,0 +1,9 @@
+stage,category,records,selected_in81,national_denominator,historical_proposal_labels_not_current_permission
+SDR40_TARGETED18_CASE_ROADS,baseline,58,True,False,True
+SDR40_TARGETED18_CASE_ROADS,candidate8,8,True,False,True
+SDR40_TARGETED18_CASE_ROADS,hold_non_laser_or_missing_result,72,False,False,True
+SDR40_TARGETED18_CASE_ROADS,hold_non_sealing_intervention,1,False,False,True
+SDR40_TARGETED18_CASE_ROADS,hold_quality_review,5,False,False,True
+SDR40_TARGETED18_CASE_ROADS,hold_washington_unresolved_measurement,2,False,False,True
+SDR40_TARGETED18_CASE_ROADS,nv15,15,True,False,True
+SDR40_TARGETED18_CASE_ROADS,nv6,6,False,False,True

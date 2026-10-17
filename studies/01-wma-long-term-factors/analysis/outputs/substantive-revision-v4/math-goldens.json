@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "compound_symmetry_max_error": 7.203198038041592e-09,
+  "conditional_gaussian_max_error": 1.3322676295501878e-15,
+  "event_kernel_min_eigenvalue": 0.010672869660732697,
+  "psis_conjugate_logscore_errors": [
+    0.00011386024073400947,
+    3.374585142434938e-07,
+    8.538900369026159e-05
+  ],
+  "bridge_identity_max_error": 2.220446049250313e-16,
+  "observed_bracket_operator": [
+    0.05435698249606857,
+    -0.19767066606747777
+  ],
+  "sources": {
+    "studies/01-wma-long-term-factors/research/method-first/substantive-revision-v4/protocol.json": "677f3c43d89dfbcde1c0ce3b3ee14c0bf473634895fa7ba912c0392950cde808",
+    "tools/v4_models.py": "021d1a20529dafc2755a4cad69faa00b11a233c5717ab24c05af34b282cc87d2",
+    "tools/substantive_revision_v4.py": "47077322c23ffc01af9e08257dfdd76af1ef0a8638648104dc99456ae00c2b51",
+    "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v4/sps10.stan": "a01af79bea5be2b793ea5623ea1be9974c337d12f3a6d0e2b4de256249483289",
+    "studies/01-wma-long-term-factors/analysis/method-first/substantive-revision-v4/manitoba.stan": "03aee91b2ed3e83e5ac63142f26d5d5cf47f1da4273fdf5096750698b2c600bd",
+    "studies/01-wma-long-term-factors/analysis/outputs/recorded-rut-outcome-v1/panel81-recorded-scale.csv": "49cd7ba809d8a1b6d9afde6301cc25116d9643b06e2483dba2023a6be45e98ee",
+    "studies/01-wma-long-term-factors/analysis/outputs/recorded-rut-m0-v1/20260924-234854/full-report.json": "3a1427d704a230f7d87c0a4367b0aa1fb49492f0aa9ad298cb6e77562426c054",
+    "tmp/recorded-rut-m0-v1/20260924-234854/full/data.json": "3e3a223c8405ea5eef3cdafd3bd3f1319f29e8361c2a069eb427898ff2983a61",
+    "studies/01-wma-long-term-factors/analysis/outputs/manitoba-native-outcomes-v1/rut-native-panel142.csv": "98ba46ee46600a70395e6e439029aeb941881322113ab7d80562a90cb817aaec",
+    "studies/01-wma-long-term-factors/analysis/outputs/manitoba-native-outcomes-v1/documented-design-labels.csv": "7cb38c69f7f3368ba320ba4300703a6c6decf8ee89a2e2e541801e2deee63dd8",
+    "studies/01-wma-long-term-factors/analysis/outputs/astra-critic-revision-v1/evidence/operation-CN-date-support.csv": "af5934f8f292084794bed315b156a3e73ce40368b87f35dfa4f8f55e5a4a5a95"
+  },
+  "mathematical_check_code_sha256": "7d9aa60458d67b645d3d8bc5406218b426b75f6d35ba602fa8420da3933314a4",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  },
+  "checks_are_not_empirical_causal_identification": true,
+  "new_fits": 0
+}

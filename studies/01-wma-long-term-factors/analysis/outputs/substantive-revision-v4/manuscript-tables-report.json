@@ -1,0 +1,16 @@
+{
+  "status": "GENERATED_FROM_CHECKED_RESULTS",
+  "code_sha256": "a09222ed72e1cd3ada95e8774a3698e8f3386186fa5056848bfd1ba07d08064d",
+  "table_files": {
+    "v4-contribution-table.tex": "1634104e0d55cb3a464e683bd6d7fd55cdbcc2a8c79e762b6f7e77c0112a7f76",
+    "v4-legacy-selection-table.tex": "56b46023339406f55bffc8dc8c5e9b1974281716da6cd46343163eeb05cedbba",
+    "v4-mb-joint-table.tex": "c2f230bea7e38b8eb77ca04d65a086e64d7d5c3be008c13983b9bb24a547911a",
+    "v4-mb-model-validation-table.tex": "1f7c69e32344177cbff7c7d8a3e5f27dc11477871d97e6b3b24e6f744861ef14",
+    "v4-mb-pair-score-table.tex": "3100a19425d3b66b48f8e2086cd83efc05ee8f9c5a5e03b99408363b3ff36194",
+    "v4-mb-sensitivity-table.tex": "35d56da3b2500f6cbe1b2621c03fd99dc4a4b37d7c7f0f4b7c91b736ece6226d",
+    "v4-project-support-table.tex": "68b999e7bfdf8e456bfae3cf2ec9ac1aa68577dae2e32bad7fe72ca02affec3a",
+    "v4-sps10-ppc-table.tex": "76e43acb50802cd40eee8e53cc46542e5b5e6ca3c5ec16dc9f60761746279196",
+    "v4-sps10-validation-table.tex": "266a0110760fe7a979ce6bebaf0d453a55522639777d53b32a6c322d50321d7c"
+  },
+  "g": "UNDEFINED"
+}

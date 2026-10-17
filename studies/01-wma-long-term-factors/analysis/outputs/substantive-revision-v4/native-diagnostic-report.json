@@ -1,0 +1,14 @@
+{
+  "planned": 30,
+  "completed": 30,
+  "pass_count": 30,
+  "not_pass": [],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  },
+  "diagnostic_code_sha256": "a1f7b73e827189cb40592a18b7ac6044a1136882b021dc29d7d98c41da68dddf"
+}

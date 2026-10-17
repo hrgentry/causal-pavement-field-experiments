@@ -1,0 +1,277 @@
+{
+  "renderer": "ggdag + ggplot2, exported by tikzDevice",
+  "reference": "https://github.com/ASKurz/Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse_2_ed/blob/master/06.qmd",
+  "reference_chapter_sha256": "2e9debf8065bd13a2fc32ec9265c0309a7e2f27cfc761c3af6efbc0c10bb6bf5",
+  "R_version": "4.5.3",
+  "packages": {
+    "ggdag": "0.2.13",
+    "ggplot2": "4.0.3",
+    "dagitty": "0.3.4",
+    "ggraph": "2.2.2",
+    "tikzDevice": "0.12.6"
+  },
+  "fonts": "fbb text; Garamond MathDesign math, inherited in LaTeX",
+  "scope": "Distinct as-implemented case mechanisms plus explicitly shared follow-up subgraph; statistical hierarchy is not causal",
+  "graphs": {
+    "sps10-mechanism": {
+      "nodes": [
+        {
+          "name": "A",
+          "x": 0,
+          "y": 0,
+          "label": "$A_{10}$",
+          "orange": false
+        },
+        {
+          "name": "L",
+          "x": 4.5,
+          "y": 3.8,
+          "label": "$L_0$",
+          "orange": false
+        },
+        {
+          "name": "T",
+          "x": 3,
+          "y": 1.6,
+          "label": "$T$",
+          "orange": false
+        },
+        {
+          "name": "U",
+          "x": 4.5,
+          "y": -2,
+          "label": "$U$",
+          "orange": true
+        },
+        {
+          "name": "V",
+          "x": 6,
+          "y": 1.6,
+          "label": "$V$",
+          "orange": false
+        },
+        {
+          "name": "Y",
+          "x": 9,
+          "y": 0,
+          "label": "$Y_t$",
+          "orange": false
+        }
+      ],
+      "edges": ["A->T", "A->V", "A->Y", "L->A", "L->T", "L->V", "L->Y", "T->V", "T->Y", "U->A", "U->Y", "V->Y"],
+      "edge_count": 12,
+      "acyclic": true,
+      "sensitivity_edges": ["L->A", "U->A", "U->Y"],
+      "dagitty": "dag {\nA [pos=\"0.000,0.000\"]\nL [pos=\"4.500,3.800\"]\nT [pos=\"3.000,1.600\"]\nU [pos=\"4.500,-2.000\"]\nV [pos=\"6.000,1.600\"]\nY [pos=\"9.000,0.000\"]\nA -> T\nA -> V\nA -> Y\nL -> A\nL -> T\nL -> V\nL -> Y\nT -> V\nT -> Y\nU -> A\nU -> Y\nV -> Y\n}\n"
+    },
+    "sps5-mechanism": {
+      "nodes": [
+        {
+          "name": "H",
+          "x": 0,
+          "y": -1.8,
+          "label": "$H$",
+          "orange": false
+        },
+        {
+          "name": "L",
+          "x": 4,
+          "y": 4.4,
+          "label": "$L_0$",
+          "orange": false
+        },
+        {
+          "name": "M",
+          "x": 0,
+          "y": 0,
+          "label": "$M$",
+          "orange": false
+        },
+        {
+          "name": "P",
+          "x": 0,
+          "y": 1.8,
+          "label": "$P$",
+          "orange": false
+        },
+        {
+          "name": "S",
+          "x": 4,
+          "y": 2,
+          "label": "$S$",
+          "orange": false
+        },
+        {
+          "name": "U",
+          "x": 4,
+          "y": -3.6,
+          "label": "$U$",
+          "orange": true
+        },
+        {
+          "name": "Y",
+          "x": 8,
+          "y": 0,
+          "label": "$Y_t$",
+          "orange": false
+        }
+      ],
+      "edges": ["H->Y", "L->H", "L->M", "L->P", "L->S", "L->Y", "M->Y", "P->S", "P->Y", "S->Y", "U->H", "U->M", "U->P", "U->Y"],
+      "edge_count": 14,
+      "acyclic": true,
+      "sensitivity_edges": ["L->P", "L->M", "L->H", "U->P", "U->M", "U->H", "U->Y"],
+      "dagitty": "dag {\nH [pos=\"0.000,-1.800\"]\nL [pos=\"4.000,4.400\"]\nM [pos=\"0.000,0.000\"]\nP [pos=\"0.000,1.800\"]\nS [pos=\"4.000,2.000\"]\nU [pos=\"4.000,-3.600\"]\nY [pos=\"8.000,0.000\"]\nH -> Y\nL -> H\nL -> M\nL -> P\nL -> S\nL -> Y\nM -> Y\nP -> S\nP -> Y\nS -> Y\nU -> H\nU -> M\nU -> P\nU -> Y\n}\n"
+    },
+    "common-followup": {
+      "nodes": [
+        {
+          "name": "A",
+          "x": 0,
+          "y": 0,
+          "label": "$A$",
+          "orange": false
+        },
+        {
+          "name": "D",
+          "x": 3,
+          "y": -2,
+          "label": "$D_t$",
+          "orange": false
+        },
+        {
+          "name": "E",
+          "x": 6,
+          "y": 2.5,
+          "label": "$E_t$",
+          "orange": false
+        },
+        {
+          "name": "L",
+          "x": 0,
+          "y": 2.5,
+          "label": "$L_0$",
+          "orange": false
+        },
+        {
+          "name": "Q",
+          "x": 10,
+          "y": 2.5,
+          "label": "$Q$",
+          "orange": false
+        },
+        {
+          "name": "R",
+          "x": 10,
+          "y": -2,
+          "label": "$R{=}1$",
+          "orange": false
+        },
+        {
+          "name": "U",
+          "x": 0,
+          "y": -2,
+          "label": "$U$",
+          "orange": true
+        },
+        {
+          "name": "Y0",
+          "x": 3,
+          "y": 0,
+          "label": "$Y_t$",
+          "orange": false
+        },
+        {
+          "name": "Y1",
+          "x": 6,
+          "y": 0,
+          "label": "$Y_{t+1}$",
+          "orange": false
+        },
+        {
+          "name": "Yr",
+          "x": 8,
+          "y": 0,
+          "label": "$Y_{\\mathrm{rec}}$",
+          "orange": false
+        }
+      ],
+      "edges": ["A->D", "A->Y0", "A->Y1", "D->R", "D->Y1", "E->D", "E->Y0", "E->Y1", "L->D", "L->Y1", "Q->R", "Q->Yr", "U->D", "U->Y1", "Y0->D", "Y0->R", "Y0->Y1", "Y1->R", "Y1->Yr"],
+      "edge_count": 19,
+      "acyclic": true,
+      "sensitivity_edges": ["U->D", "U->Y1", "Y1->R"],
+      "dagitty": "dag {\nA [pos=\"0.000,0.000\"]\nD [pos=\"3.000,-2.000\"]\nE [pos=\"6.000,2.500\"]\nL [pos=\"0.000,2.500\"]\nQ [pos=\"10.000,2.500\"]\nR [pos=\"10.000,-2.000\"]\nU [pos=\"0.000,-2.000\"]\nY0 [pos=\"3.000,0.000\"]\nY1 [pos=\"6.000,0.000\"]\nYr [pos=\"8.000,0.000\"]\nA -> D\nA -> Y0\nA -> Y1\nD -> R\nD -> Y1\nE -> D\nE -> Y0\nE -> Y1\nL -> D\nL -> Y1\nQ -> R\nQ -> Yr\nU -> D\nU -> Y1\nY0 -> D\nY0 -> R\nY0 -> Y1\nY1 -> R\nY1 -> Yr\n}\n"
+    },
+    "bayesian-structure": {
+      "nodes": [
+        {
+          "name": "K",
+          "x": 4.5,
+          "y": 4,
+          "label": "$K$",
+          "orange": false
+        },
+        {
+          "name": "X",
+          "x": 0,
+          "y": 0,
+          "label": "$X$",
+          "orange": false
+        },
+        {
+          "name": "Y",
+          "x": 4.5,
+          "y": -4,
+          "label": "$Y$",
+          "orange": false
+        },
+        {
+          "name": "b",
+          "x": 3,
+          "y": 2,
+          "label": "$b_p$",
+          "orange": false
+        },
+        {
+          "name": "eta",
+          "x": 4.5,
+          "y": 0,
+          "label": "$\\eta^*$",
+          "orange": false
+        },
+        {
+          "name": "mu",
+          "x": 4.5,
+          "y": -2,
+          "label": "$\\mu_{\\log}$",
+          "orange": false
+        },
+        {
+          "name": "s",
+          "x": 6,
+          "y": 2,
+          "label": "$s_s$",
+          "orange": false
+        },
+        {
+          "name": "sigma",
+          "x": 9,
+          "y": 2,
+          "label": "$\\sigma_y$",
+          "orange": false
+        },
+        {
+          "name": "theta",
+          "x": 0,
+          "y": 2,
+          "label": "$\\theta$",
+          "orange": false
+        }
+      ],
+      "edges": ["b->eta", "eta->mu", "K->b", "K->s", "K->sigma", "K->theta", "mu->Y", "s->eta", "sigma->mu", "sigma->Y", "theta->eta", "X->eta"],
+      "edge_count": 12,
+      "acyclic": true,
+      "sensitivity_edges": [],
+      "dagitty": "dag {\nK [pos=\"4.500,4.000\"]\nX [pos=\"0.000,0.000\"]\nY [pos=\"4.500,-4.000\"]\nb [pos=\"3.000,2.000\"]\neta [pos=\"4.500,0.000\"]\nmu [pos=\"4.500,-2.000\"]\ns [pos=\"6.000,2.000\"]\nsigma [pos=\"9.000,2.000\"]\ntheta [pos=\"0.000,2.000\"]\nK -> b\nK -> s\nK -> sigma\nK -> theta\nX -> eta\nb -> eta\neta -> mu\nmu -> Y\ns -> eta\nsigma -> Y\nsigma -> mu\ntheta -> eta\n}\n"
+    }
+  }
+}

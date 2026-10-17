@@ -1,0 +1,66 @@
+{
+  "status": "PASS_VERSIONED_PURPOSIVE_CASE_LINEAGE",
+  "legacy_release": "SDR39",
+  "legacy_generated_at": "2026-09-04T13:08:09+08:00",
+  "legacy_candidates": 72,
+  "legacy_core": 40,
+  "legacy_supplemental": 32,
+  "legacy_core_exclusions": {
+    "blocked_layer_reused_across_cycles": 6,
+    "no_unique_complete_treatment_layer": 16
+  },
+  "legacy_projects_in_snapshot": 14,
+  "chosen_projects": [
+    "04-AA00",
+    "12-AA00",
+    "32-AA00",
+    "35-AA00",
+    "41-AA00",
+    "53-AA00"
+  ],
+  "chosen_sections": 18,
+  "SDR40_targeted_candidate_visits": 167,
+  "selected_visits": 81,
+  "excluded_targeted_visits": 86,
+  "selection_categories": {
+    "hold_non_laser_or_missing_result": 72,
+    "baseline": 58,
+    "nv15": 15,
+    "hold_quality_review": 5,
+    "hold_non_sealing_intervention": 1,
+    "candidate8": 8,
+    "nv6": 6,
+    "hold_washington_unresolved_measurement": 2
+  },
+  "matched_current_native_visits": 81,
+  "profile_rows": 40452,
+  "analysis_episode_native_epoch_aliases": 0,
+  "any_global_SDR40_eligibility_census_claimed": false,
+  "purpose": "Carry forward an auditable core three-technology legacy case set, verify current source/record versions, examine target qualification; not population-representative selection.",
+  "no_outcome_independent_visit_selection_claim": true,
+  "case_selection_precedes_new_model_diagnostics": true,
+  "source_chronology": {
+    "commit": "ad6617fcdbf047b9c6b2a995237801b25477899e",
+    "commit_time": "2026-09-04T13:07:28+08:00",
+    "script_sha256": "bedba94f96226a92fbb0c8415d0ab889e6cb854e8d0bf80507db3cd2a616aa3f",
+    "manifest_expected_script_sha256": "bedba94f96226a92fbb0c8415d0ab889e6cb854e8d0bf80507db3cd2a616aa3f",
+    "exact_git_blob_hash_match": true
+  },
+  "why_not_national": "Legacy structural traceability and current device/QC availability are selection processes. Excluded labels are not proof of no pavement distress, no WMA, or no subsequent maintenance.",
+  "historical_false_authorization_flags_not_reopened_as_current_QC_decisions": true,
+  "g": "UNDEFINED",
+  "national_database_opens": 0,
+  "inputs": {
+    "data/manifests/sdr39-sps10-cohort-candidate.json": "bd0d719544cee59ad53eb6d45e8608d5ba68457a80e7b6e9407078b8c18d382e",
+    "data/manifests/sdr39-sps10-section-map-candidate.csv": "d864271377aba9351be7204f4675c2b8fd4a055721d4be86dc6450f24ac70013",
+    "data/manifests/sdr39-sps10-exclusion-log-candidate.csv": "088e26e43a1e91c4860f6a8a315981593d15ab943e3709e742476c5075deddd7",
+    "studies/01-wma-long-term-factors/analysis/outputs/laser-panel-v1-proposal/manifest.json": "159a61e63ef568e011dee123a62e2dbf6715b1e9a27360b8a455bc9b3427e5dd",
+    "studies/01-wma-long-term-factors/analysis/outputs/laser-panel-v1-proposal/admission-ledger.json": "7fd0114539a3e8b5aa5a33f1e5bb2712ef938fc8a4509d8d75b3c8dc886c432d",
+    "studies/01-wma-long-term-factors/analysis/outputs/laser-panel-v1-proposal/scenario-membership.json": "32f0a2b16e483433dc605cfe51144ef78589357b7b81a3164f26f4bc782ec140",
+    "studies/01-wma-long-term-factors/analysis/outputs/sdr40-panel81-qc/panel.json": "9311990e59be684e7570fb18dcd18b69b803f0a1ce089b2513f2be8eeb9e2a15",
+    "studies/01-wma-long-term-factors/analysis/outputs/recorded-rut-outcome-v1/panel81-recorded-scale.csv": "49cd7ba809d8a1b6d9afde6301cc25116d9643b06e2483dba2023a6be45e98ee",
+    "studies/01-wma-long-term-factors/research/method-first/p1-sdr40-four-gate-18.csv": "0d9aaece0653bb0263eb27efbc82389d422a3dfba3986bc58adb2318245b9ad9",
+    "studies/01-wma-long-term-factors/analysis/outputs/sdr40-candidate-review/nevada-transitions.json": "9b7dcadaea0234168379b49617da2f4392eefd42f8725d4e1856f995e1b579c5"
+  },
+  "code_sha256": "76bdd1d3db961389b6efc465881cdad977bdd8a816760775aae66f6575d92ac4"
+}

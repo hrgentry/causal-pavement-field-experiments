@@ -1,0 +1,3 @@
+model,units,mean_crps_mm,mean_rounded_crps_mm,mean_joint_bin_log_score,covered,exact_refits
+stationary-rounded,52,0.742470130815142,0.7241774234761569,-2.6920566061157456,48,3
+calendar-matched,52,0.7230875270271054,0.7038600494193693,-2.7650608354047765,50,2

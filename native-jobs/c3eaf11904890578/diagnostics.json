@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "sps10--section-half--LOPO--53-AA00",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 221,
+  "structural_constants": [],
+  "max_rhat": 1.0020116706629325,
+  "min_bulk_ess": 1863.0310760942848,
+  "min_tail_ess": 1907.2357174909594,
+  "max_mcse_sd": 0.02334186687699221,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.8055251670811092,
+    0.7577812568936938,
+    0.7578067503651861,
+    0.7654591656622742
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "0563132fb9b823b5f467be2d2169c6f8cd0633dafaf60dc60604ca6a173b078d",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}

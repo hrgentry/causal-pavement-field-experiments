@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "job": "manitoba--event-kappa44--full--primary",
+  "chains": 4,
+  "warmup": 1000,
+  "retained_per_chain": 2000,
+  "checked_nonrandom_quantities": 140,
+  "structural_constants": [],
+  "max_rhat": 1.002547646782122,
+  "min_bulk_ess": 2004.8609149156407,
+  "min_tail_ess": 2599.109477018284,
+  "max_mcse_sd": 0.02264780749446118,
+  "divergences": 0,
+  "treedepth_hits": 0,
+  "ebfmi": [
+    0.7250469536723256,
+    0.7331127838934987,
+    0.7549273371717042,
+    0.7614163015473236
+  ],
+  "failed_quantities": [],
+  "precision_only_failure": false,
+  "full_summary_sha256": "02768c965bdf42c776269476c914819681b7a19a1ef5d802f761cc816fa6ca6e",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "arviz": "0.22.0"
+  }
+}
