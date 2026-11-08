@@ -5,9 +5,16 @@
   "release_url": "https://github.com/hrgentry/causal-pavement-field-experiments/releases/tag/v5b-20261017",
   "archive": "pavement-causal-appraisal-v5b-20261017.zip",
   "maintainer_account": "hrgentry",
-  "manuscript_authors_not_declared": true,
+  "creators": [
+    "Zhou, Yuhui",
+    "Gong, Hongren",
+    "Yang, Fan",
+    "Ji, Yuanjin",
+    "Cong, Lin"
+  ],
   "originating_local_snapshot": "6640a1ebde04ea2f67c5c4a086c088665097a31a",
-  "doi": null,
+  "doi": "10.5281/zenodo.24038127",
+  "doi_url": "https://doi.org/10.5281/zenodo.24038127",
   "licence_not_assigned": true,
   "g": "UNDEFINED",
   "native_jobs": 73,

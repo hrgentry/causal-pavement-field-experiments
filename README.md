@@ -45,6 +45,10 @@ The source is LTPP Standard Data Release 40. [LTPP InfoPave](https://infopave.fh
 
 The release excludes national databases, full chains, executables, private settings, third-party full texts, the paper and internal reviews.
 
-See `release-manifest.json` for file hashes and source records. See `RIGHTS.md` for reuse limits. No blanket license or DOI is assigned.
+Cite this release by its Zenodo DOI: [10.5281/zenodo.24038127](https://doi.org/10.5281/zenodo.24038127). The Zenodo record archives the same ZIP and `SHA256SUMS.txt` as the GitHub release.
+
+See `release-manifest.json` for file hashes and source records. See `RIGHTS.md` for reuse limits. No blanket license is assigned.
+
+`release-manifest.json` lists the files of the `v5b-20261017` tag. After the release, `CITATION.cff`, `README.md`, `RIGHTS.md` and `release-metadata.json` were edited on `main` to add the DOI and creators, so their hashes on `main` differ from the manifest; the archive itself is unchanged.
 
 Repository maintainer: `hrgentry`.

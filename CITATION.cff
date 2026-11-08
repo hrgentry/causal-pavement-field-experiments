@@ -1,10 +1,25 @@
 cff-version: 1.2.0
-message: "Cite this fixed data/code release; the maintainer account is not a manuscript author declaration."
+message: "Cite this fixed data/code release by its Zenodo DOI."
 type: dataset
 title: "Derived records, models and reproducibility materials for causal appraisal of asphalt pavement field experiments"
 authors:
-  - name: hrgentry
+  - family-names: "Zhou"
+    given-names: "Yuhui"
+    affiliation: "The Key Laboratory of Road and Traffic Engineering, Ministry of Education, Tongji University, Shanghai, China"
+  - family-names: "Gong"
+    given-names: "Hongren"
+    affiliation: "The Key Laboratory of Road and Traffic Engineering, Ministry of Education, Tongji University, Shanghai, China"
+  - family-names: "Yang"
+    given-names: "Fan"
+    affiliation: "Guangxi Communication Design Group Co., Ltd, Nanning, China"
+  - family-names: "Ji"
+    given-names: "Yuanjin"
+    affiliation: "Shanghai Key Laboratory of Rail Infrastructure Durability and System Safety, Tongji University, Shanghai, China"
+  - family-names: "Cong"
+    given-names: "Lin"
+    affiliation: "The Key Laboratory of Road and Traffic Engineering, Ministry of Education, Tongji University, Shanghai, China"
 version: "v5b-20261017"
+doi: "10.5281/zenodo.24038127"
 date-released: "2026-10-17"
 url: "https://github.com/hrgentry/causal-pavement-field-experiments/releases/tag/v5b-20261017"
 repository-code: "https://github.com/hrgentry/causal-pavement-field-experiments"
